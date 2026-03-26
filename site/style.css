@@ -1,0 +1,74 @@
+/* Configurações Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #000033;
+}
+
+header {
+    background-color: #000033;
+    [cite: 1] color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seção Destaques */
+.destaques {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.destaques h1 {
+    font-size: 2.5em;
+    color: #000033;
+    [cite: 3]
+}
+
+/* Faixa Azul de Marcas */
+.autorizadas {
+    background-color: #000033;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.info-texto {
+    border-right: 2px solid white;
+    padding-right: 20px;
+    max-width: 40%;
+    font-size: 1.2em;
+}
+
+.marcas-logos img {
+    height: 40px;
+    [cite: 5, 7] margin: 0 15px;
+}
+
+/* Seção de Produtos */
+.produtos {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.filtros-produtos span {
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: underline;
+    [cite: 9] cursor: pointer;
+}
