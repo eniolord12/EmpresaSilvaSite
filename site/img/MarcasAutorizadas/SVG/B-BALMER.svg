@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svgRoot" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 130.49 142.59">
+  
+  <defs>
+    <style>
+      .st0 {
+        fill: #4e8c8a;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="st0" d="M0,15.8L17.93,0l35.35,70.67-35.49,71.92L0,126.75V15.8ZM32.22,0h80.36l17.91,12.61v47.88l-11.95,10.22,11.95,10.13v49.22l-17.91,12.54H32.31l34.49-72.03L32.22,0ZM52.11,130.3h56.25l9.67-6.76v-37.02l-18.91-15.83,18.91-15.96V18.79l-9.67-6.51h-56.25l28.58,58.31-28.58,59.71Z"/>
+</svg>

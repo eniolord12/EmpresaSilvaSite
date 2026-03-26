@@ -1,74 +1,202 @@
-/* Configurações Gerais */
-body {
-    font-family: Arial, sans-serif;
+/* Importação das Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset e Configurações Gerais */
+* {
     margin: 0;
-    color: #000033;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    background-color: #ffffff;
+    color: #000033;
+    /* Azul Escuro da Identidade */
+    font-family: 'Poppins', sans-serif;
+    /* Fonte Principal */
+    line-height: 1.6;
+}
+
+/* Header */
 header {
     background-color: #000033;
-    [cite: 1] color: white;
+    color: white;
+    padding: 15px 5%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
     align-items: center;
 }
 
+.logo img {
+    height: 50px;
+    display: block;
+}
+
 nav ul {
-    list-style: none;
     display: flex;
-    gap: 20px;
+    list-style: none;
+    gap: 25px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    /* Fonte Secundária */
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00;
+    /* Amarelo de destaque */
 }
 
 /* Seção Destaques */
 .destaques {
     text-align: center;
-    padding: 40px 0;
+    padding: 60px 20px;
 }
 
-.destaques h1 {
-    font-size: 2.5em;
+.title-section {
+    font-family: 'Montserrat', sans-serif;
     color: #000033;
-    [cite: 3]
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
-/* Faixa Azul de Marcas */
+.carousel-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.carousel-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dots {
+    margin-top: 25px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #000033;
+}
+
+/* Faixa de Marcas Autorizadas */
 .autorizadas {
     background-color: #000033;
     color: white;
     display: flex;
+    padding: 50px 8%;
     align-items: center;
-    justify-content: space-around;
-    padding: 30px;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
 .info-texto {
-    border-right: 2px solid white;
-    padding-right: 20px;
-    max-width: 40%;
-    font-size: 1.2em;
+    width: 40%;
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+    padding-right: 30px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.marcas-logos {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .marcas-logos img {
-    height: 40px;
-    [cite: 5, 7] margin: 0 15px;
+    height: 35px;
+    max-width: 130px;
+    object-fit: contain;
+    /* Efeito para deixar logos brancos no fundo escuro */
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease, opacity 0.3s;
+    opacity: 0.85;
+}
+
+.marcas-logos img:hover {
+    transform: scale(1.1);
+    opacity: 1;
 }
 
 /* Seção de Produtos */
 .produtos {
     text-align: center;
-    padding: 50px 0;
+    padding: 80px 20px;
+}
+
+.filtros-produtos {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
 }
 
 .filtros-produtos span {
-    margin: 0 15px;
-    font-weight: bold;
-    text-decoration: underline;
-    [cite: 9] cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color: #000033;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.filtros-produtos span:hover {
+    border-color: #ffcc00;
+}
+
+/* Responsividade para Dispositivos Móveis */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .autorizadas {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-texto {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 0 0 25px 0;
+        margin-bottom: 30px;
+    }
+
+    .marcas-logos {
+        width: 100%;
+    }
 }
