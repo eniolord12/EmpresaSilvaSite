@@ -11,13 +11,12 @@
 body {
     background-color: #ffffff;
     color: #000033;
-    /* Azul Escuro da Identidade */
     font-family: 'Poppins', sans-serif;
-    /* Fonte Principal */
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
-/* Header */
+/* Header & Nav */
 header {
     background-color: #000033;
     color: white;
@@ -25,28 +24,29 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
 }
 
 .logo img {
-    height: 50px;
-    display: block;
+    height: 45px;
 }
 
 nav ul {
     display: flex;
     list-style: none;
-    gap: 25px;
+    gap: 20px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    /* Fonte Secundária */
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 700;
     text-transform: uppercase;
-    transition: color 0.3s ease;
+    transition: 0.3s;
 }
 
 nav a:hover {
@@ -56,15 +56,15 @@ nav a:hover {
 
 /* Seção Destaques */
 .destaques {
+    padding: 40px 15px;
     text-align: center;
-    padding: 60px 20px;
 }
 
 .title-section {
     font-family: 'Montserrat', sans-serif;
     color: #000033;
-    font-size: 2.2rem;
-    margin-bottom: 25px;
+    font-size: clamp(1.5rem, 5vw, 2.2rem);
+    margin-bottom: 20px;
     font-weight: 700;
     letter-spacing: 2px;
 }
@@ -77,14 +77,15 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+    min-height: 250px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
 .carousel-container img {
-    max-width: 80%;
-    max-height: 350px;
+    max-width: 90%;
+    /* Aumentei um pouco para aproveitar melhor o espaço */
+    max-height: 300px;
     height: auto;
     object-fit: contain;
 }
@@ -243,28 +244,56 @@ nav a:hover {
     border-color: #ffcc00;
 }
 
+.menu-toggle {
+    display: none;
+    /* Esconde no computador */
+}
+
 /* Responsividade para Dispositivos Móveis */
+/* Mobile Adjustments */
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        gap: 20px;
+    .menu-toggle {
+        display: block;
+        /* APARECE no celular */
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.8rem;
+        cursor: pointer;
     }
 
-    .autorizadas {
+    .nav-menu {
+        display: none;
+        /* Esconde o menu */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #000033;
+        padding: 20px 0;
+    }
+
+    .nav-menu.active {
+        display: block;
+    }
+
+    nav ul {
         flex-direction: column;
-        text-align: center;
+        align-items: center;
+        gap: 15px;
     }
 
     .info-texto {
-        width: 100%;
         border-right: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        padding: 0 0 25px 0;
-        margin-bottom: 30px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+        padding-right: 0;
+        padding-bottom: 20px;
+        text-align: center;
     }
 
-    .marcas-logos {
-        width: 100%;
+    .whatsapp-btn {
+        width: 55px;
+        height: 55px;
     }
 }
 
@@ -363,6 +392,28 @@ footer {
     padding-top: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .autorizadas {
+        flex-direction: column;
+        /* Empilha o texto sobre os logos */
+        padding: 40px 5%;
+    }
+
+    .info-texto {
+        width: 100%;
+        /* Ocupa a largura total */
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        padding-right: 0;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .marcas-logos {
+        width: 100%;
+    }
 }
 
 /* Responsividade para Footer */
