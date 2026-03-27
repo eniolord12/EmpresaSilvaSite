@@ -92,3 +92,60 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
         if (menuToggle) menuToggle.textContent = '☰';
     });
 });
+
+// --- Lógica de Produtos da Empresa Silva ---
+const listaProdutos = document.getElementById('lista-produtos');
+const botoesFiltro = document.querySelectorAll('.filter-btn');
+
+async function carregarProdutos() {
+    try {
+        const response = await fetch('img/Produtos/produtos.json');
+        if (!response.ok) return;
+        const produtos = await response.json();
+
+        // Renderiza todos ao carregar a página
+        exibirProdutos(produtos);
+
+        // Configura os cliques nos filtros
+        botoesFiltro.forEach(btn => {
+            btn.addEventListener('click', () => {
+                botoesFiltro.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const categoria = btn.getAttribute('data-filter');
+                const filtrados = categoria === 'todos'
+                    ? produtos
+                    : produtos.filter(p => p.categoria === categoria);
+
+                exibirProdutos(filtrados);
+            });
+        });
+    } catch (error) {
+        console.error("Erro ao carregar os produtos:", error);
+    }
+}
+
+function exibirProdutos(itens) {
+    if (!listaProdutos) return;
+    listaProdutos.innerHTML = '';
+
+    itens.forEach(prod => {
+        // Formata a mensagem do WhatsApp automaticamente
+        const mensagemZap = encodeURIComponent(`Olá! Tenho interesse no produto: ${prod.nome}`);
+        const linkWhatsApp = `https://wa.me/553431990594?text=${mensagemZap}`;
+
+        const card = document.createElement('div');
+        card.className = 'produto-card';
+        card.innerHTML = `
+            <img src="${prod.img}" alt="${prod.nome}">
+            <h3>${prod.nome}</h3>
+            <a href="${linkWhatsApp}" target="_blank" class="btn-interesse">Tenho Interesse</a>
+        `;
+        listaProdutos.appendChild(card);
+    });
+}
+
+// Inicializa a função de produtos
+if (listaProdutos) {
+    carregarProdutos();
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "Esmerilhadeira Ingco UAG75028-91",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/esmerilhadeiraIngco.png"
+    },
+    {
+        "nome": "Inversora de Solda Balmer Joy 163",
+        "categoria": "Utilitários",
+        "img": "img/Produtos/solda-balmer.jpg"
+    },
+    {
+        "nome": "Induzido Furadeira Bosch GSB 13 RE",
+        "categoria": "Peças",
+        "img": "img/Produtos/induzido-bosch.jpg"
+    }
+]
