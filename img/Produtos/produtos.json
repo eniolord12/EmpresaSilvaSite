@@ -1,12 +1,12 @@
 [
     {
-        "nome": "Esmerilhadeira Ingco UAG75028-91",
+        "nome": "Esmerilhadeira Ingco UAG90028-91 \"5099\"",
         "categoria": "Ferramentas",
         "img": "img/Produtos/esmerilhadeiraIngco.png"
     },
     {
         "nome": "Porca e Flange",
-        "categoria": "Utilitários",
+        "categoria": "Peças",
         "img": "img/Produtos/porca-flange.jpeg"
     },
     {
@@ -21,12 +21,92 @@
     },
     {
         "nome": "Protetor de Disco",
-        "categoria": "Utilitários",
+        "categoria": "Peças",
         "img": "img/Produtos/protetor-de-disco.png"
     },
     {
         "nome": "Mandril de aperto rápido",
-        "categoria": "Utilitários",
+        "categoria": "Peças",
         "img": "img/Produtos/mandril-aperto-rapido.png"
+    },
+    {
+        "nome": "Puxador Do Punho Einhell Tc-dh \"4082\"",
+        "categoria": "Peças",
+        "img": "img/Produtos/puxador-do-punho-einhell-tc-dh.png"
+    },
+    {
+        "nome": "Alicate Bomba D'água Ingco 10pol (250mm) \"5220\"",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/alicate-bomba-dagua-5220.jpeg"
+    },
+    {
+        "nome": "Alicate Corta Vergalhão Ingco Cr-V 30 Pol. \"4879\"",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/alicate-corta-vergalhao-4879.jpeg"
+    },
+    {
+        "nome": "Alicate De Bico De Alta \"4716\"",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/alicate-bico-alta-4716.png"
+    },
+    {
+        "nome": "Alicate De Bico Isolado \"4713\"",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/alicate-bico-isolado-4713.png"
+    },
+    {
+        "nome": "Alicate De Bico Meia Cana \"4712\"",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/alicate-bico-meia-cana-4712.png"
+    },
+    {
+        "nome": "Alicate De Corte Diagonal De Alta \"4717\"",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/alicate-corte-diagonal-alta-4717.png"
+    },
+    {
+        "nome": "Alicate Isolado \"4714\"",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/alicate-isolado-4714.png"
+    },
+    {
+        "nome": "Alicate Para Anel Externo \"4711\"",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/alicate-anel-externo-4711.png"
+    },
+    {
+        "nome": "Alicate Para Anel Interno \"4709\"",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/alicate-anel-interno-4709.png"
+    },
+    {
+        "nome": "Alicate Universal \"4718\"",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/alicate-universal-4718.png"
+    },
+    {
+        "nome": "Alicate Universal De Alta Performance 8pol Ingco \"4830\"",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/alicate-universal-performance-4830.png"
+    },
+    {
+        "nome": "Bateria Ion-Litio Ingco 4.0ah 20v Linha P20s \"5100\"",
+        "categoria": "Acessórios",
+        "img": "img/Produtos/bateria-ingco-4ah-5100.png"
+    },
+    {
+        "nome": "Bolsa Para Ferramentas Ingco 16pol 14 Bolsos \"5367\"",
+        "categoria": "Acessórios",
+        "img": "img/Produtos/bolsa-ferramentas-ingco-5367.png"
+    },
+    {
+        "nome": "Cabo Elétrico \"5132\"",
+        "categoria": "Peças",
+        "img": "img/Produtos/cabo-eletrico-5132.png"
+    },
+    {
+        "nome": "Carcaça \"5135\"",
+        "categoria": "Peças",
+        "img": "img/Produtos/carcaca-5135.png"
     }
 ]

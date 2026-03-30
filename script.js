@@ -107,6 +107,7 @@ async function carregarProdutos() {
         exibirProdutos(produtos);
 
         // Configura os cliques nos filtros
+        // Suporta novas categorias adicionadas no HTML, como Acessórios
         botoesFiltro.forEach(btn => {
             btn.addEventListener('click', () => {
                 botoesFiltro.forEach(b => b.classList.remove('active'));
