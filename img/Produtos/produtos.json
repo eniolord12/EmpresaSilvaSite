@@ -11,7 +11,12 @@
     },
     {
         "nome": "Disco de Corte",
-        "categoria": "Peças",
+        "categoria": "Utilitários",
         "img": "img/Produtos/disco-de-corte.jpeg"
+    },
+    {
+        "nome": "Ventoinha",
+        "categoria": "Peças",
+        "img": "img/Produtos/ventoinha.jpeg"
     }
 ]
