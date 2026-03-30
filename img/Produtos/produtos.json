@@ -18,5 +18,15 @@
         "nome": "Ventoinha",
         "categoria": "Peças",
         "img": "img/Produtos/ventoinha.jpeg"
+    },
+    {
+        "nome": "Protetor de Disco",
+        "categoria": "Utilitários",
+        "img": "img/Produtos/protetor-de-disco.png"
+    },
+    {
+        "nome": "Mandril de aperto rápido",
+        "categoria": "Utilitários",
+        "img": "img/Produtos/mandril-aperto-rapido.png"
     }
 ]
