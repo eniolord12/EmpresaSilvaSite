@@ -430,6 +430,43 @@ footer {
     }
 }
 
+@media (max-width: 768px) {
+    .produtos {
+        padding: 60px 15px;
+    }
+
+    .filtros-produtos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 20px;
+    }
+
+    .filtros-produtos span {
+        font-size: 1rem;
+        padding: 8px 10px;
+        white-space: nowrap;
+    }
+
+    .produtos-grid {
+        grid-template-columns: 1fr;
+        gap: 22px;
+        padding: 20px 0 0;
+    }
+
+    .produto-card {
+        padding: 18px;
+    }
+
+    .produto-card img {
+        max-height: 220px;
+    }
+
+    .btn-interesse {
+        padding: 12px 14px;
+    }
+}
+
 /* Grid de Produtos Responsivo */
 .produtos-grid {
     display: grid;
