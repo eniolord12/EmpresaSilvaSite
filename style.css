@@ -119,6 +119,71 @@ nav a:hover {
     margin-top: 40px;
 }
 
+.quem-somos-destaque {
+    background: #ffdd47;
+    color: #000033;
+    padding: 50px 8%;
+    margin: 40px auto;
+    border-radius: 28px;
+    max-width: 1200px;
+}
+
+.quem-somos-grid {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.quem-somos-text {
+    flex: 1 1 420px;
+    min-width: 280px;
+}
+
+.quem-somos-text .section-label {
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.quem-somos-destaque h2 {
+    font-size: clamp(2rem, 2.5vw, 2.6rem);
+    margin-bottom: 18px;
+    line-height: 1.1;
+}
+
+.quem-somos-destaque p {
+    font-size: 1rem;
+    line-height: 1.8;
+    max-width: 680px;
+}
+
+.quem-somos-tags {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1 1 260px;
+    min-width: 220px;
+}
+
+.quem-somos-item {
+    background: white;
+    color: #000033;
+    padding: 20px 22px;
+    border-radius: 20px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+    font-weight: 700;
+}
+
+@media (max-width: 900px) {
+    .quem-somos-grid {
+        flex-direction: column;
+    }
+}
+
 .info-texto {
     width: 40%;
     border-right: 2px solid rgba(255, 255, 255, 0.3);
