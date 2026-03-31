@@ -112,6 +112,8 @@ const botoesFiltro = document.querySelectorAll('.filter-btn');
 const productsFilterButtons = document.getElementById('products-filter-buttons');
 const searchInput = document.getElementById('search-produto');
 const searchCount = document.getElementById('search-count');
+const selectAllFiltersButton = document.getElementById('select-all-filters');
+const clearFiltersButton = document.getElementById('clear-filters');
 const MAX_PRODUCTS_ON_HOME = 6;
 let todosProdutos = [];
 let currentProductCategories = new Set();
@@ -125,6 +127,7 @@ async function carregarProdutos() {
 
         if (pageType === 'products') {
             renderProductFilters(todosProdutos);
+            setupProductFilterActions();
             configurarBusca();
             aplicarFiltrosProdutos();
         } else {
@@ -184,6 +187,25 @@ function renderProductFilters(produtos) {
         label.appendChild(input);
         label.appendChild(span);
         productsFilterButtons.appendChild(label);
+    });
+}
+
+function setupProductFilterActions() {
+    selectAllFiltersButton?.addEventListener('click', () => {
+        const categories = getProductCategories(todosProdutos);
+        currentProductCategories = new Set(categories);
+        productsFilterButtons.querySelectorAll('input[type="checkbox"]').forEach(input => {
+            input.checked = true;
+        });
+        aplicarFiltrosProdutos();
+    });
+
+    clearFiltersButton?.addEventListener('click', () => {
+        currentProductCategories.clear();
+        productsFilterButtons.querySelectorAll('input[type="checkbox"]').forEach(input => {
+            input.checked = false;
+        });
+        aplicarFiltrosProdutos();
     });
 }
 
