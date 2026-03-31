@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos | Empresa Silva</title>
+    <title>Quem Somos | Empresa Silva</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="img/Favicon/Favicon512x512.png">
 </head>
 
-<body data-page="products">
+<body id="top">
     <header>
         <div class="logo">
             <a href="index.html"><img src="img/LogoEmpresaSilva/LogoHorizontal-ParaFundoEscuro.svg"
@@ -21,44 +21,58 @@
                 <li><a href="index.html">Início</a></li>
                 <li><a href="dicas.html">Dicas</a></li>
                 <li><a href="marcas.html">Marcas</a></li>
-                <li><a href="products.html" aria-current="page">Produtos</a></li>
-                <li><a href="sobre.html">Quem Somos</a></li>
+                <li><a href="products.html">Produtos</a></li>
+                <li><a href="sobre.html" aria-current="page">Quem Somos</a></li>
                 <li><a href="index.html#footer-info">Contatos</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="produtos produtos-page">
-        <section class="produtos-top">
-            <h2 class="title-section">Todos os Produtos</h2>
-            <p>Use a busca para encontrar o produto exato que você precisa com mais rapidez.</p>
-            <div class="search-wrapper">
-                <input id="search-produto" type="search" placeholder="Buscar produto..." aria-label="Buscar produto">
-            </div>
-            <div class="filter-panel">
-                <button type="button" class="filter-toggle" aria-expanded="false">Filtros</button>
-                <div class="filter-panel-content collapsed">
-                    <div class="filter-actions">
-                        <button type="button" id="select-all-filters" class="filter-action-btn">Selecionar tudo</button>
-                        <button type="button" id="clear-filters" class="filter-action-btn">Limpar seleção</button>
-                    </div>
-                    <div class="products-filter">
-                        <div class="filter-label">Filtrar por temas:</div>
-                        <div id="products-filter-buttons" class="products-filter-buttons"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="search-count" id="search-count"></div>
+    <main class="blog-section">
+        <section class="blog-hero">
+            <p>Saiba mais sobre nós</p>
+            <h1>Quem Somos</h1>
+            <p>Somos a Empresa Silva, especialista em manutenção e venda de ferramentas elétricas e acessórios.
+                Atendemos com qualidade e confiança para clientes profissionais e residenciais.</p>
         </section>
 
-        <div id="lista-produtos" class="produtos-grid"></div>
+        <section class="blog-grid" style="max-width: 1000px; margin: 40px auto 0; display: grid; gap: 28px;">
+            <article class="blog-card">
+                <div class="blog-card-content">
+                    <h2>Nossa missão</h2>
+                    <p>Prover assistência técnica segura e eficiente, com peças originais e atendimento personalizado,
+                        garantindo que seus equipamentos voltem a funcionar com desempenho máximo.</p>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-card-content">
+                    <h2>Nossa visão</h2>
+                    <p>Ser referência regional em manutenção e vendas, reconhecida pela confiança, competência técnica e
+                        atendimento que facilita o trabalho de nossos clientes.</p>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-card-content">
+                    <h2>Nossos valores</h2>
+                    <p>Qualidade, transparência, respeito e compromisso com a segurança. Trabalhamos para entregar
+                        soluções que protegem equipamentos e pessoas.</p>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-card-content">
+                    <h2>Por que escolher a Empresa Silva?</h2>
+                    <p>Contamos com equipe treinada, marcas autorizadas, peças originais e atendimento rápido. Estamos
+                        prontos para oferecer suporte técnico completo e ajudá-lo a escolher o melhor produto.</p>
+                </div>
+            </article>
+        </section>
     </main>
 
     <footer>
         <div class="footer-container">
             <div class="footer-info" id="footer-info">
                 <h3>Empresa Silva Manutenção</h3>
-                <p><a href="https://maps.google.com/?q=R.+França,+2041+-+Nações,+Patrocínio-MG" target="_blank">R.
+                <p><a href="https://maps.google.com/?q=R.+França,+2041+-+Nações,+Patroc%C3%ADnio-MG" target="_blank">R.
                         França, 2041 - Nações, Patrocínio-MG</a></p>
                 <p>Assistência Autorizada em 25 Marcas</p>
                 <p>Telefone: (34) 3199-0594</p>
