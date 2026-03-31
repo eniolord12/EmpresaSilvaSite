@@ -93,6 +93,25 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     });
 });
 
+const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+dropdownToggles.forEach(toggle => {
+    toggle.addEventListener('click', event => {
+        const parent = toggle.closest('.dropdown');
+        if (!parent) return;
+
+        event.stopPropagation();
+        const isOpen = parent.classList.contains('open');
+        document.querySelectorAll('.dropdown.open').forEach(drop => {
+            if (drop !== parent) drop.classList.remove('open');
+        });
+        parent.classList.toggle('open', !isOpen);
+    });
+});
+
+window.addEventListener('click', () => {
+    document.querySelectorAll('.dropdown.open').forEach(drop => drop.classList.remove('open'));
+});
+
 const filterToggles = document.querySelectorAll('.filter-toggle');
 filterToggles.forEach(toggle => {
     const panelContent = toggle.nextElementSibling;
