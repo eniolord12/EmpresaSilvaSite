@@ -97,10 +97,13 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
 const pageType = document.body.dataset.page || '';
 const listaProdutos = document.getElementById('lista-produtos');
 const botoesFiltro = document.querySelectorAll('.filter-btn');
+const productsFilterButtons = document.getElementById('products-filter-buttons');
 const searchInput = document.getElementById('search-produto');
 const searchCount = document.getElementById('search-count');
 const MAX_PRODUCTS_ON_HOME = 6;
 let todosProdutos = [];
+let currentProductFilter = 'todos';
+let currentProductSearch = '';
 
 async function carregarProdutos() {
     try {
@@ -109,8 +112,9 @@ async function carregarProdutos() {
         todosProdutos = await response.json();
 
         if (pageType === 'products') {
-            exibirProdutos(todosProdutos);
+            renderProductFilters(todosProdutos);
             configurarBusca();
+            aplicarFiltrosProdutos();
         } else {
             exibirProdutos(todosProdutos, MAX_PRODUCTS_ON_HOME);
         }
@@ -132,6 +136,48 @@ async function carregarProdutos() {
     } catch (error) {
         console.error("Erro ao carregar os produtos:", error);
     }
+}
+
+function getProductCategories(produtos) {
+    const categories = new Set(produtos.map(prod => prod.categoria));
+    return ['todos', ...categories];
+}
+
+function renderProductFilters(produtos) {
+    if (!productsFilterButtons) return;
+    productsFilterButtons.innerHTML = '';
+
+    getProductCategories(produtos).forEach(category => {
+        const span = document.createElement('span');
+        span.className = 'filter-btn';
+        span.textContent = category;
+        span.dataset.filter = category;
+        if (category === currentProductFilter) span.classList.add('active');
+        span.addEventListener('click', () => {
+            currentProductFilter = category;
+            productsFilterButtons.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            span.classList.add('active');
+            aplicarFiltrosProdutos();
+        });
+        productsFilterButtons.appendChild(span);
+    });
+}
+
+function aplicarFiltrosProdutos() {
+    let filtrados = todosProdutos;
+
+    if (currentProductFilter !== 'todos') {
+        filtrados = filtrados.filter(prod => prod.categoria === currentProductFilter);
+    }
+
+    if (currentProductSearch.trim()) {
+        const termo = currentProductSearch.toLowerCase();
+        filtrados = filtrados.filter(prod => {
+            return prod.nome.toLowerCase().includes(termo) || prod.categoria.toLowerCase().includes(termo);
+        });
+    }
+
+    exibirProdutos(filtrados);
 }
 
 function criarCardProduto(prod) {
@@ -176,11 +222,8 @@ function configurarBusca() {
     if (!searchInput) return;
 
     searchInput.addEventListener('input', event => {
-        const termo = event.target.value.toLowerCase().trim();
-        const filtrados = todosProdutos.filter(prod => {
-            return prod.nome.toLowerCase().includes(termo) || prod.categoria.toLowerCase().includes(termo);
-        });
-        exibirProdutos(filtrados);
+        currentProductSearch = event.target.value || '';
+        aplicarFiltrosProdutos();
     });
 }
 
