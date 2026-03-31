@@ -94,20 +94,27 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
 });
 
 // --- Lógica de Produtos da Empresa Silva ---
+const pageType = document.body.dataset.page || '';
 const listaProdutos = document.getElementById('lista-produtos');
 const botoesFiltro = document.querySelectorAll('.filter-btn');
+const searchInput = document.getElementById('search-produto');
+const searchCount = document.getElementById('search-count');
+const MAX_PRODUCTS_ON_HOME = 6;
+let todosProdutos = [];
 
 async function carregarProdutos() {
     try {
         const response = await fetch('img/Produtos/produtos.json');
         if (!response.ok) return;
-        const produtos = await response.json();
+        todosProdutos = await response.json();
 
-        // Renderiza todos ao carregar a página
-        exibirProdutos(produtos);
+        if (pageType === 'products') {
+            exibirProdutos(todosProdutos);
+            configurarBusca();
+        } else {
+            exibirProdutos(todosProdutos, MAX_PRODUCTS_ON_HOME);
+        }
 
-        // Configura os cliques nos filtros
-        // Suporta novas categorias adicionadas no HTML, como Acessórios
         botoesFiltro.forEach(btn => {
             btn.addEventListener('click', () => {
                 botoesFiltro.forEach(b => b.classList.remove('active'));
@@ -115,10 +122,11 @@ async function carregarProdutos() {
 
                 const categoria = btn.getAttribute('data-filter');
                 const filtrados = categoria === 'todos'
-                    ? produtos
-                    : produtos.filter(p => p.categoria === categoria);
+                    ? todosProdutos
+                    : todosProdutos.filter(p => p.categoria === categoria);
 
-                exibirProdutos(filtrados);
+                const limit = pageType === 'products' ? 0 : MAX_PRODUCTS_ON_HOME;
+                exibirProdutos(filtrados, limit);
             });
         });
     } catch (error) {
@@ -126,27 +134,56 @@ async function carregarProdutos() {
     }
 }
 
-function exibirProdutos(itens) {
+function criarCardProduto(prod) {
+    const mensagemZap = encodeURIComponent(`Olá! Tenho interesse no produto: ${prod.nome}`);
+    const linkWhatsApp = `https://wa.me/553431990594?text=${mensagemZap}`;
+
+    const card = document.createElement('div');
+    card.className = 'produto-card';
+    card.innerHTML = `
+        <img src="${prod.img}" alt="${prod.nome}">
+        <h3>${prod.nome}</h3>
+        <a href="${linkWhatsApp}" target="_blank" class="btn-interesse">Tenho Interesse</a>
+    `;
+    return card;
+}
+
+function exibirProdutos(itens, limit = 0) {
     if (!listaProdutos) return;
     listaProdutos.innerHTML = '';
 
-    itens.forEach(prod => {
-        // Formata a mensagem do WhatsApp automaticamente
-        const mensagemZap = encodeURIComponent(`Olá! Tenho interesse no produto: ${prod.nome}`);
-        const linkWhatsApp = `https://wa.me/553431990594?text=${mensagemZap}`;
+    let itensParaExibir = itens;
+    if (limit > 0) {
+        itensParaExibir = itens.slice(0, limit);
+    }
 
-        const card = document.createElement('div');
-        card.className = 'produto-card';
-        card.innerHTML = `
-            <img src="${prod.img}" alt="${prod.nome}">
-            <h3>${prod.nome}</h3>
-            <a href="${linkWhatsApp}" target="_blank" class="btn-interesse">Tenho Interesse</a>
-        `;
-        listaProdutos.appendChild(card);
+    if (itensParaExibir.length === 0) {
+        listaProdutos.innerHTML = '<p class="nenhum-produto">Nenhum produto encontrado.</p>';
+        if (searchCount) searchCount.textContent = '0 produtos encontrados';
+        return;
+    }
+
+    itensParaExibir.forEach(prod => {
+        listaProdutos.appendChild(criarCardProduto(prod));
+    });
+
+    if (searchCount) {
+        searchCount.textContent = `${itens.length} produto(s) encontrados`;
+    }
+}
+
+function configurarBusca() {
+    if (!searchInput) return;
+
+    searchInput.addEventListener('input', event => {
+        const termo = event.target.value.toLowerCase().trim();
+        const filtrados = todosProdutos.filter(prod => {
+            return prod.nome.toLowerCase().includes(termo) || prod.categoria.toLowerCase().includes(termo);
+        });
+        exibirProdutos(filtrados);
     });
 }
 
-// Inicializa a função de produtos
 if (listaProdutos) {
     carregarProdutos();
 }
