@@ -252,6 +252,77 @@ nav a:hover {
     font-size: 1rem;
 }
 
+.blog-controls {
+    display: grid;
+    gap: 18px;
+    max-width: 1000px;
+    margin: 40px auto 0;
+}
+
+.blog-search {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.blog-search input {
+    width: 100%;
+    padding: 16px 18px;
+    border-radius: 14px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-search input:focus {
+    border-color: #000033;
+    box-shadow: 0 0 0 4px rgba(0, 0, 51, 0.08);
+}
+
+.blog-filter-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.blog-filter-label {
+    font-weight: 700;
+    color: #000033;
+}
+
+.blog-filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.blog-filter-buttons button {
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    color: #333;
+    padding: 10px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-size: 0.9rem;
+}
+
+.blog-filter-buttons button.active,
+.blog-filter-buttons button:hover {
+    background: #000033;
+    color: white;
+    border-color: #000033;
+}
+
+.blog-search-count {
+    color: #666;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
 .blog-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

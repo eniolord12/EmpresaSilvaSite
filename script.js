@@ -190,6 +190,12 @@ if (listaProdutos) {
 
 const blogGrid = document.getElementById('blog-grid');
 const blogPosts = document.getElementById('blog-posts');
+const blogSearchInput = document.getElementById('search-dicas');
+const blogSearchCount = document.getElementById('search-count-dicas');
+const blogFilterButtons = document.getElementById('blog-filter-buttons');
+let todosPostsBlog = [];
+let currentBlogTag = 'Todos';
+let currentBlogQuery = '';
 
 const blogFallbackPosts = [
     {
@@ -242,6 +248,120 @@ const blogFallbackPosts = [
     }
 ];
 
+function getBlogTags(posts) {
+    const tags = new Set(posts.map(post => post.tag));
+    return ['Todos', ...tags];
+}
+
+function renderBlogFilters(posts) {
+    if (!blogFilterButtons) return;
+
+    blogFilterButtons.innerHTML = '';
+    const tags = getBlogTags(posts);
+
+    tags.forEach(tag => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = tag;
+        button.dataset.tag = tag;
+        if (tag === 'Todos') button.classList.add('active');
+        button.addEventListener('click', () => {
+            currentBlogTag = tag;
+            atualizarFiltroAtivo(tag);
+            filtrarPostsBlog();
+        });
+        blogFilterButtons.appendChild(button);
+    });
+}
+
+function atualizarFiltroAtivo(tag) {
+    if (!blogFilterButtons) return;
+    blogFilterButtons.querySelectorAll('button').forEach(button => {
+        button.classList.toggle('active', button.dataset.tag === tag);
+    });
+}
+
+function filtrarPostsBlog() {
+    let filtrados = todosPostsBlog;
+
+    if (currentBlogTag !== 'Todos') {
+        filtrados = filtrados.filter(post => post.tag === currentBlogTag);
+    }
+
+    if (currentBlogQuery.trim()) {
+        const termo = currentBlogQuery.toLowerCase();
+        filtrados = filtrados.filter(post => {
+            const texto = `${post.title} ${post.excerpt} ${post.tag} ${post.content.join(' ')}`.toLowerCase();
+            return texto.includes(termo);
+        });
+    }
+
+    renderBlogGrid(filtrados);
+    renderBlogPosts(filtrados);
+    atualizarContagemBlog(filtrados.length);
+}
+
+function configurarBuscaDicas() {
+    if (!blogSearchInput) return;
+
+    blogSearchInput.addEventListener('input', event => {
+        currentBlogQuery = event.target.value || '';
+        filtrarPostsBlog();
+    });
+}
+
+function renderBlogGrid(posts) {
+    if (!blogGrid) return;
+    blogGrid.innerHTML = '';
+
+    if (posts.length === 0) {
+        blogGrid.innerHTML = '<p class="nenhum-produto">Nenhum post encontrado.</p>';
+        return;
+    }
+
+    posts.forEach(post => {
+        const card = document.createElement('article');
+        card.className = 'blog-card';
+        card.innerHTML = `
+            <div class="blog-card-content">
+                <span class="blog-tag">${post.tag}</span>
+                <h2>${post.title}</h2>
+                <p>${post.excerpt}</p>
+                <div class="blog-meta">
+                    <span>${post.date}</span>
+                    <a href="#post-${post.id}" class="read-more-btn">Leia mais</a>
+                </div>
+            </div>`;
+        blogGrid.appendChild(card);
+    });
+}
+
+function renderBlogPosts(posts) {
+    if (!blogPosts) return;
+    blogPosts.innerHTML = '';
+
+    if (posts.length === 0) {
+        blogPosts.innerHTML = '<p class="nenhum-produto">Nenhum post encontrado.</p>';
+        return;
+    }
+
+    posts.forEach(post => {
+        const detail = document.createElement('article');
+        detail.className = 'blog-detail';
+        detail.id = `post-${post.id}`;
+        detail.innerHTML = `
+            <h2>${post.title}</h2>
+            ${post.content.map(text => `<p>${text}</p>`).join('')}
+            <a href="#top" class="back-to-top">Voltar ao topo</a>`;
+        blogPosts.appendChild(detail);
+    });
+}
+
+function atualizarContagemBlog(total) {
+    if (!blogSearchCount) return;
+    blogSearchCount.textContent = `${total} post(s) encontrados`;
+}
+
 async function carregarBlog() {
     if (!blogGrid && !blogPosts) return;
 
@@ -257,38 +377,13 @@ async function carregarBlog() {
         console.warn('Falha ao carregar blog-posts.json, usando dados locais.', error);
     }
 
-    if (blogGrid) {
-        blogGrid.innerHTML = '';
-        posts.forEach(post => {
-            const card = document.createElement('article');
-            card.className = 'blog-card';
-            card.innerHTML = `
-                <div class="blog-card-content">
-                    <span class="blog-tag">${post.tag}</span>
-                    <h2>${post.title}</h2>
-                    <p>${post.excerpt}</p>
-                    <div class="blog-meta">
-                        <span>${post.date}</span>
-                        <a href="#post-${post.id}" class="read-more-btn">Leia mais</a>
-                    </div>
-                </div>`;
-            blogGrid.appendChild(card);
-        });
-    }
+    todosPostsBlog = posts;
+    currentBlogTag = 'Todos';
+    currentBlogQuery = '';
+    renderBlogFilters(posts);
+    configurarBuscaDicas();
 
-    if (blogPosts) {
-        blogPosts.innerHTML = '';
-        posts.forEach(post => {
-            const detail = document.createElement('article');
-            detail.className = 'blog-detail';
-            detail.id = `post-${post.id}`;
-            detail.innerHTML = `
-                <h2>${post.title}</h2>
-                ${post.content.map(text => `<p>${text}</p>`).join('')}
-                <a href="#top" class="back-to-top">Voltar ao topo</a>`;
-            blogPosts.appendChild(detail);
-        });
-    }
+    filtrarPostsBlog();
 }
 
 carregarBlog();
