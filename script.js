@@ -102,7 +102,7 @@ const searchInput = document.getElementById('search-produto');
 const searchCount = document.getElementById('search-count');
 const MAX_PRODUCTS_ON_HOME = 6;
 let todosProdutos = [];
-let currentProductFilter = 'todos';
+let currentProductCategories = new Set();
 let currentProductSearch = '';
 
 async function carregarProdutos() {
@@ -139,35 +139,50 @@ async function carregarProdutos() {
 }
 
 function getProductCategories(produtos) {
-    const categories = new Set(produtos.map(prod => prod.categoria));
-    return ['todos', ...categories];
+    return [...new Set(produtos.map(prod => prod.categoria))];
 }
 
 function renderProductFilters(produtos) {
     if (!productsFilterButtons) return;
     productsFilterButtons.innerHTML = '';
 
-    getProductCategories(produtos).forEach(category => {
-        const span = document.createElement('span');
-        span.className = 'filter-btn';
-        span.textContent = category;
-        span.dataset.filter = category;
-        if (category === currentProductFilter) span.classList.add('active');
-        span.addEventListener('click', () => {
-            currentProductFilter = category;
-            productsFilterButtons.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-            span.classList.add('active');
+    const categories = getProductCategories(produtos);
+    currentProductCategories = new Set(categories);
+
+    categories.forEach(category => {
+        const label = document.createElement('label');
+        label.className = 'filter-checkbox';
+
+        const input = document.createElement('input');
+        input.type = 'checkbox';
+        input.value = category;
+        input.checked = true;
+        input.addEventListener('change', () => {
+            if (input.checked) {
+                currentProductCategories.add(category);
+            } else {
+                currentProductCategories.delete(category);
+            }
             aplicarFiltrosProdutos();
         });
-        productsFilterButtons.appendChild(span);
+
+        const span = document.createElement('span');
+        span.textContent = category;
+
+        label.appendChild(input);
+        label.appendChild(span);
+        productsFilterButtons.appendChild(label);
     });
 }
 
 function aplicarFiltrosProdutos() {
     let filtrados = todosProdutos;
 
-    if (currentProductFilter !== 'todos') {
-        filtrados = filtrados.filter(prod => prod.categoria === currentProductFilter);
+    const totalCategorias = getProductCategories(todosProdutos).length;
+    if (currentProductCategories.size === 0) {
+        filtrados = [];
+    } else if (currentProductCategories.size < totalCategorias) {
+        filtrados = filtrados.filter(prod => currentProductCategories.has(prod.categoria));
     }
 
     if (currentProductSearch.trim()) {

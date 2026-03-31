@@ -479,6 +479,55 @@ nav a:hover {
     text-align: center;
 }
 
+.products-filter {
+    display: grid;
+    gap: 12px;
+    justify-content: center;
+}
+
+.products-filter .filter-label {
+    font-weight: 700;
+    color: #000033;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.92rem;
+}
+
+.products-filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.filter-checkbox {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px 14px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.filter-checkbox input {
+    width: 16px;
+    height: 16px;
+    accent-color: #000033;
+}
+
+.filter-checkbox span {
+    color: #333;
+}
+
+.filter-checkbox input:checked+span {
+    font-weight: 700;
+}
+
+
 .produtos-top p {
     color: #4b4b4b;
     max-width: 760px;
