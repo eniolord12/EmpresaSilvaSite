@@ -37,6 +37,7 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 20px;
+    align-items: center;
 }
 
 nav a {
@@ -46,6 +47,7 @@ nav a {
     font-size: 0.85rem;
     font-weight: 700;
     text-transform: capitalize;
+    line-height: 1;
     transition: 0.3s;
 }
 
@@ -65,16 +67,30 @@ nav li {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.85rem;
     font-weight: 700;
+    line-height: 1;
     cursor: pointer;
     text-transform: capitalize;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
+    padding: 8px 10px;
+    border-radius: 999px;
+    transition: background 0.25s ease;
+}
+
+.dropdown-toggle:hover,
+.dropdown.open>.dropdown-toggle {
+    background: rgba(255, 204, 0, 0.12);
 }
 
 .dropdown-toggle::after {
     content: '▾';
     font-size: 0.7rem;
+    transition: transform 0.2s ease;
+}
+
+.dropdown.open>.dropdown-toggle::after {
+    transform: rotate(180deg);
 }
 
 .dropdown-menu {
@@ -82,10 +98,10 @@ nav li {
     top: calc(100% + 8px);
     left: 0;
     background: #000033;
-    border-radius: 12px;
+    border-radius: 14px;
     display: none;
     flex-direction: column;
-    padding: 10px 0;
+    padding: 8px 0;
     min-width: 180px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
     z-index: 1002;
@@ -826,11 +842,18 @@ nav li {
         background: transparent;
         padding: 0;
         min-width: auto;
+        width: 100%;
     }
 
     .dropdown-menu a {
-        padding: 12px 20px;
+        padding: 12px 24px;
         border-radius: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .dropdown-menu a:hover {
+        background: rgba(255, 255, 255, 0.08);
     }
 
     .dropdown:hover .dropdown-menu {
@@ -934,7 +957,7 @@ footer {
 
 .footer-info a {
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .footer-info a:hover {
