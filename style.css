@@ -697,8 +697,11 @@ nav a:hover {
 
     nav ul {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         gap: 15px;
+        width: 100%;
+        padding-right: 24px;
+        text-align: right;
     }
 
     .info-texto {
