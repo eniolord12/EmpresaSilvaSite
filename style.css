@@ -841,13 +841,15 @@ footer {
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
+        align-items: flex-start;
     }
 
     .footer-info,
     .footer-map,
     .footer-social {
-        text-align: center;
+        text-align: left;
+        width: 100%;
     }
 }
 
