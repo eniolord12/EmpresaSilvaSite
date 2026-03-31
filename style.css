@@ -259,6 +259,54 @@ nav a:hover {
     margin: 40px auto 0;
 }
 
+.filter-panel {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.filter-toggle {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    background: #000033;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    padding: 14px 22px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.3s ease;
+}
+
+.filter-toggle::after {
+    content: "☰";
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.1rem;
+}
+
+.filter-toggle.open::after {
+    content: "✕";
+}
+
+.filter-panel-content {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.35s ease, opacity 0.35s ease, padding 0.35s ease;
+    padding: 0;
+}
+
+.filter-panel-content:not(.collapsed) {
+    max-height: 1200px;
+    opacity: 1;
+    padding: 22px 0 0;
+}
+
 .blog-search {
     max-width: 600px;
     margin: 0 auto;

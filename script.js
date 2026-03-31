@@ -93,6 +93,18 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     });
 });
 
+const filterToggles = document.querySelectorAll('.filter-toggle');
+filterToggles.forEach(toggle => {
+    const panelContent = toggle.nextElementSibling;
+    if (!panelContent) return;
+
+    toggle.addEventListener('click', () => {
+        const collapsed = panelContent.classList.toggle('collapsed');
+        toggle.setAttribute('aria-expanded', String(!collapsed));
+        toggle.classList.toggle('open', !collapsed);
+    });
+});
+
 // --- Lógica de Produtos da Empresa Silva ---
 const pageType = document.body.dataset.page || '';
 const listaProdutos = document.getElementById('lista-produtos');
