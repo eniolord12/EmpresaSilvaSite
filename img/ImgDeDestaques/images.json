@@ -4,19 +4,19 @@
         "alt": "Fachada da Empresa"
     },
     {
-        "src": "img/ImgDeDestaques/FuradeiraIngco.jpeg",
-        "alt": "Furadeira Ingco"
+        "src": "img/ImgDeDestaques/ferramentas.jpg",
+        "alt": "Ferramentas dewalt e ingco"
     },
     {
-        "src": "img/ImgDeDestaques/SerraCircularIngco.jpeg",
-        "alt": "Serra Circular Ingco"
+        "src": "img/ImgDeDestaques/eletrodos.jpg",
+        "alt": "Eletrodos"
     },
     {
-        "src": "img/ImgDeDestaques/SopradorIngco.jpeg",
-        "alt": "Soprador Ingco"
+        "src": "img/ImgDeDestaques/parafusadeira.jpg",
+        "alt": "Parafusadeira"
     },
     {
-        "src": "img/ImgDeDestaques/TochaOximig.jpeg",
-        "alt": "Tocha Oxi-Mig"
+        "src": "img/ImgDeDestaques/esmerilhadeira-a-bateria.jpg",
+        "alt": "Esmerilhadeira a Bateria"
     }
 ]
