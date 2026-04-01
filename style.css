@@ -147,23 +147,34 @@ nav li {
 
 .carousel-container {
     max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
     background-color: #f4f4f4;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 250px;
+    min-height: 300px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
 .carousel-container img {
-    max-width: 90%;
-    /* Aumentei um pouco para aproveitar melhor o espaço */
-    max-height: 300px;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 320px;
     height: auto;
     object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        min-height: 220px;
+    }
+
+    .carousel-container img {
+        max-height: 220px;
+    }
 }
 
 .dots {

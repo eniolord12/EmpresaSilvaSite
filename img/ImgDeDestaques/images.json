@@ -5,18 +5,22 @@
     },
     {
         "src": "img/ImgDeDestaques/FuradeiraIngco.jpeg",
-        "alt": "Fachada da Empresa"
+        "alt": "Furadeira Ingco"
     },
     {
         "src": "img/ImgDeDestaques/SerraCircularIngco.jpeg",
-        "alt": "Fachada da Empresa"
+        "alt": "Serra Circular Ingco"
     },
     {
         "src": "img/ImgDeDestaques/SopradorIngco.jpeg",
+        "alt": "Soprador Ingco"
+    },
+    {
+        "src": "img/ImgDeDestaques/fachada1.jpg",
         "alt": "Fachada da Empresa"
     },
     {
         "src": "img/ImgDeDestaques/TochaOximig.jpeg",
-        "alt": "Fachada da Empresa"
+        "alt": "Tocha Oxi-Mig"
     }
 ]
