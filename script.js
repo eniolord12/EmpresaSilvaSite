@@ -241,7 +241,8 @@ function aplicarFiltrosProdutos() {
     if (currentProductSearch.trim()) {
         const termo = currentProductSearch.toLowerCase();
         filtrados = filtrados.filter(prod => {
-            return prod.nome.toLowerCase().includes(termo) || prod.categoria.toLowerCase().includes(termo);
+            return [prod.nome, prod.titulo, prod.modelo, prod.categoria, prod.descricao]
+                .some(field => typeof field === 'string' && field.toLowerCase().includes(termo));
         });
     }
 
@@ -249,16 +250,43 @@ function aplicarFiltrosProdutos() {
 }
 
 function criarCardProduto(prod) {
-    const mensagemZap = encodeURIComponent(`Olá! Tenho interesse no produto: ${prod.nome}`);
+    const titulo = prod.titulo || prod.nome || 'Produto';
+    const modelo = prod.modelo || 'Modelo não informado';
+    const marca = prod.marca || 'Marca não informada';
+    const descricao = prod.descricao || 'Descrição não disponível.';
+    const codigo = prod.codigo || '0000';
+
+    const mensagemZap = encodeURIComponent(`Olá, tenho interesse na ferramenta ${titulo} código: [${codigo}].`);
     const linkWhatsApp = `https://wa.me/553431990594?text=${mensagemZap}`;
 
     const card = document.createElement('div');
     card.className = 'produto-card';
+    card.tabIndex = 0;
     card.innerHTML = `
-        <img src="${prod.img}" alt="${prod.nome}">
-        <h3>${prod.nome}</h3>
-        <a href="${linkWhatsApp}" target="_blank" class="btn-interesse">Tenho Interesse</a>
-    `;
+        <div class="produto-card-header">
+            <img src="${prod.img}" alt="${titulo}">
+            <h3>${titulo}</h3>
+            <p class="produto-brand">Marca: ${marca}</p>
+            <p class="produto-modelo">Modelo: ${modelo}</p>
+        </div>
+        <div class="produto-card-details">
+            <p class="produto-descricao">${descricao}</p>
+            <p class="produto-codigo">Código: ${codigo}</p>
+            <a href="${linkWhatsApp}" target="_blank" class="btn-interesse">Pedir via WhatsApp</a>
+        </div>`;
+
+    card.addEventListener('click', event => {
+        if (event.target.closest('a')) return;
+        card.classList.toggle('active');
+    });
+
+    card.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            card.classList.toggle('active');
+        }
+    });
+
     return card;
 }
 
