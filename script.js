@@ -268,11 +268,11 @@ function criarCardProduto(prod) {
             <h3>${titulo}</h3>
             <p class="produto-brand">Marca: ${marca}</p>
             <p class="produto-modelo">Modelo: ${modelo}</p>
+            <a href="${linkWhatsApp}" target="_blank" class="btn-interesse btn-whatsapp">Pedir via WhatsApp</a>
         </div>
         <div class="produto-card-details">
             <p class="produto-descricao">${descricao}</p>
             <p class="produto-codigo">Código: ${codigo}</p>
-            <a href="${linkWhatsApp}" target="_blank" class="btn-interesse">Pedir via WhatsApp</a>
         </div>`;
 
     card.addEventListener('click', event => {
