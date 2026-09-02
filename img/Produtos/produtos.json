@@ -9,13 +9,13 @@
         "descricao": "Esmerilhadeira potente para corte e desbaste com acabamento profissional."
     },
     {
-        "titulo": "Porca e Flange",
-        "modelo": "PF-01",
-        "marca": "Hammer",
-        "categoria": "Peças",
-        "img": "img/Produtos/porca-flange.jpeg",
-        "codigo": "1001",
-        "descricao": "Conjunto de porca e flange para fixação segura e resistência mecânica."
+        "titulo": "Parafusadeira CIDLI429982-9",
+        "modelo": "CIDLI429982-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ParafusadeiraCIDLI429982-9.png",
+        "codigo": "CIDLI429982-9",
+        "descricao": "A Parafusadeira 42V à bateria INGCO modelo CIDLI429982-9 combina potência, versatilidade e liberdade sem fio, proporcionando excelente desempenho tanto para profissionais quanto para usuários domésticos exigentes."
     },
     {
         "titulo": "Disco de Corte",
@@ -27,13 +27,13 @@
         "descricao": "Disco de corte resistente para diversos materiais, ideal para reparos rápidos."
     },
     {
-        "titulo": "Ventoinha",
-        "modelo": "VN-01",
-        "marca": "Genérico",
-        "categoria": "Peças",
-        "img": "img/Produtos/ventoinha.jpeg",
-        "codigo": "1003",
-        "descricao": "Ventoinha de reposição para refrigeração eficiente do equipamento."
+        "titulo": "Chave de Impacto CIWLI42602-9",
+        "modelo": "CIWLI42602-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ChaveDeImpactoCIWLI42602-9.png",
+        "codigo": "CIWLI42602-9",
+        "descricao": "Chave de impacto 42V para aperto de parafusos em locais de difícil acesso."
     },
     {
         "titulo": "Protetor de Disco",
@@ -54,22 +54,22 @@
         "descricao": "Mandril de aperto rápido para troca ágil de brocas e acessórios."
     },
     {
-        "titulo": "Puxador do Punho Einhell",
-        "modelo": "TC-DH",
+        "titulo": "Martelete 42V CRHLI422882-9",
+        "modelo": "CRHLI422882-9",
         "marca": "Einhell",
-        "categoria": "Peças",
-        "img": "img/Produtos/puxador-do-punho-einhell-tc-dh.png",
-        "codigo": "4082",
-        "descricao": "Puxador confortável para melhor controle de sua ferramenta Einhell."
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/Martelete42VCRHLI422882-9.png",
+        "codigo": "CRHLI422882-9",
+        "descricao": "Martelete 42V potente para perfuração e demolição em concreto e alvenaria."
     },
     {
-        "titulo": "Alicate Bomba D'água Ingco 10pol (250mm)",
-        "modelo": "5220",
+        "titulo": "Esmerilhadeira Ingco 42V CAGLI4128112-9",
+        "modelo": "CAGLI4128112-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/alicate-bomba-dagua-5220.jpeg",
-        "codigo": "5220",
-        "descricao": "Alicate bomba d'água robusto para cortes precisos em tubulações."
+        "img": "img/Produtos/Esmerilhadeira42VCAGLI4128112-9.png",
+        "codigo": "CAGLI4128112-9",
+        "descricao": "Esmerilhadeira 42V potente para corte e desbaste com acabamento profissional."
     },
     {
         "titulo": "Alicate Corta Vergalhão Ingco Cr-V 30 Pol.",
@@ -133,68 +133,5 @@
         "img": "img/Produtos/alicate-anel-externo-4711.png",
         "codigo": "4711",
         "descricao": "Alicate externo para remoção de anéis com firmeza e segurança."
-    },
-    {
-        "titulo": "Alicate Para Anel Interno",
-        "modelo": "4709",
-        "marca": "Genérico",
-        "categoria": "Ferramentas",
-        "img": "img/Produtos/alicate-anel-interno-4709.png",
-        "codigo": "4709",
-        "descricao": "Alicate interno para instalação e retirada de anéis."
-    },
-    {
-        "titulo": "Alicate Universal",
-        "modelo": "4718",
-        "marca": "Genérico",
-        "categoria": "Ferramentas",
-        "img": "img/Produtos/alicate-universal-4718.png",
-        "codigo": "4718",
-        "descricao": "Alicate universal para uma ampla variedade de trabalhos manuais."
-    },
-    {
-        "titulo": "Alicate Universal de Alta Performance 8pol Ingco",
-        "modelo": "4830",
-        "marca": "Ingco",
-        "categoria": "Ferramentas",
-        "img": "img/Produtos/alicate-universal-performance-4830.png",
-        "codigo": "4830",
-        "descricao": "Alicate de alta performance para uso profissional e pesado."
-    },
-    {
-        "titulo": "Bateria Ion-Litio Ingco 4.0ah 20v Linha P20s",
-        "modelo": "5100",
-        "marca": "Ingco",
-        "categoria": "Acessórios",
-        "img": "img/Produtos/bateria-ingco-4ah-5100.png",
-        "codigo": "5100",
-        "descricao": "Bateria de lítio 20V para ferramentas da linha P20S com longa duração."
-    },
-    {
-        "titulo": "Bolsa Para Ferramentas Ingco 16pol 14 Bolsos",
-        "modelo": "5367",
-        "marca": "Ingco",
-        "categoria": "Acessórios",
-        "img": "img/Produtos/bolsa-ferramentas-ingco-5367.png",
-        "codigo": "5367",
-        "descricao": "Bolsa profissional com 14 bolsos para organizar ferramentas."
-    },
-    {
-        "titulo": "Cabo Elétrico",
-        "modelo": "5132",
-        "marca": "Genérico",
-        "categoria": "Peças",
-        "img": "img/Produtos/cabo-eletrico-5132.png",
-        "codigo": "5132",
-        "descricao": "Cabo elétrico de reposição para conector e alimentação segura."
-    },
-    {
-        "titulo": "Carcaça",
-        "modelo": "5135",
-        "marca": "Genérico",
-        "categoria": "Peças",
-        "img": "img/Produtos/carcaca-5135.png",
-        "codigo": "5135",
-        "descricao": "Carcaça resistente para proteção e montagem do equipamento."
     }
 ]
