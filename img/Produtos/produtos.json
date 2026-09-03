@@ -72,58 +72,58 @@
         "descricao": "Esmerilhadeira 42V potente para corte e desbaste com acabamento profissional."
     },
     {
-        "titulo": "Alicate Corta Vergalhão Ingco Cr-V 30 Pol.",
-        "modelo": "4879",
+        "titulo": "Lanterna 42V CWLI42896-9",
+        "modelo": "CWLI42896-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/alicate-corta-vergalhao-4879.jpeg",
-        "codigo": "4879",
-        "descricao": "Alicate de corte pesado para vergalhões e cabos grossos."
+        "img": "img/Produtos/Lanterna42VCWLI42896-9.png",
+        "codigo": "CWLI42896-9",
+        "descricao": "Lanterna 42V para iluminação em ambientes de trabalho."
     },
     {
-        "titulo": "Alicate de Bico de Alta",
-        "modelo": "4716",
-        "marca": "Genérico",
+        "titulo": "Serra Circular 42V CSLI4214012-9",
+        "modelo": "CSLI4214012-9",
+        "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/alicate-bico-alta-4716.png",
-        "codigo": "4716",
-        "descricao": "Alicate de bico fino para trabalhos de precisão e acabamento."
+        "img": "img/Produtos/SerraCircular42VCSLI4214012-9.png",
+        "codigo": "CSLI4214012-9",
+        "descricao": "Serra circular 42V para corte preciso em diversos materiais."
     },
     {
-        "titulo": "Alicate de Bico Isolado",
-        "modelo": "4713",
-        "marca": "Genérico",
+        "titulo": "Serra Circular 42V CSLI4218512-9",
+        "modelo": "CSLI4218512-9",
+        "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/alicate-bico-isolado-4713.png",
-        "codigo": "4713",
-        "descricao": "Alicate isolado para trabalho seguro em componentes elétricos."
+        "img": "img/Produtos/SerraCircular42VCSLI4218512-9.png",
+        "codigo": "CSLI4218512-9",
+        "descricao": "Serra circular 42V para corte preciso em diversos materiais."
     },
     {
-        "titulo": "Alicate de Bico Meia Cana",
-        "modelo": "4712",
-        "marca": "Genérico",
+        "titulo": "Bateria 2.0Ah 42V FBLI42201",
+        "modelo": "FBLI42201",
+        "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/alicate-bico-meia-cana-4712.png",
-        "codigo": "4712",
-        "descricao": "Alicate meia cana para encaixes e manipulação de anéis."
+        "img": "img/Produtos/Bateria42VFBLI42201.png",
+        "codigo": "FBLI42201",
+        "descricao": "Bateria 2.0Ah 42V para ferramentas elétricas."
     },
     {
-        "titulo": "Alicate de Corte Diagonal de Alta",
-        "modelo": "4717",
-        "marca": "Genérico",
+        "titulo": "Bateria 2.5Ah 42V FBLI42251",
+        "modelo": "FBLI42251",
+        "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/alicate-corte-diagonal-alta-4717.png",
-        "codigo": "4717",
-        "descricao": "Alicate de corte diagonal ideal para fios e cabos."
+        "img": "img/Produtos/Bateria2.5Ah42VFBLI42251.png",
+        "codigo": "FBLI42251",
+        "descricao": "Bateria 2.5Ah 42V para ferramentas elétricas."
     },
     {
-        "titulo": "Alicate Isolado",
-        "modelo": "4714",
-        "marca": "Genérico",
+        "titulo": "Carregador de Bateria 2.0A 42V Bivolt FCLI42021",
+        "modelo": "FCLI42021",
+        "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/alicate-isolado-4714.png",
-        "codigo": "4714",
-        "descricao": "Alicate isolado para proteção adicional em aplicações elétricas."
+        "img": "img/Produtos/CarregadorDeBateria2.0A42VBivoltFCLI42021-9.png",
+        "codigo": "FCLI42021",
+        "descricao": "Carregador de bateria 2.0A 42V Bivolt para ferramentas elétricas."
     },
     {
         "titulo": "Alicate Para Anel Externo",
