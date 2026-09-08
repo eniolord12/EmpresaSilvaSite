@@ -157,5 +157,57 @@
             "Tensão: 42V",
             "Especificação principal: 4.1/2\""
         ]
+    },
+    {
+        "titulo": "Esmerilhadeira Angular BL INGCO 9Pol 2600W Max À Bateria 42V Linha P42M",
+        "modelo": "CAGLI4260182-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/EsmerilhadeiraCAGLI4260182-9.png",
+        "codigo": "CAGLI4260182-9",
+        "descricao": "A Esmerilhadeira Angular BL INGCO de 9Pol e potência de 2600W Max com alimentação à bateria 42V (linha P42M) oferece desempenho de ferramenta com fio, sem a limitação dos cabos. O motor brushless proporciona força para corte e desbaste pesado em metal, concreto e alvenaria, com a autonomia da plataforma 42V.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Disco: 9Pol",
+            "Potência: 2600W Max",
+            "Tensão: 42V",
+            "Motor: brushless (BL)",
+            "Carregador: 4A"
+        ]
+    },
+    {
+        "titulo": "SERRA CIRCULAR BRUSHLESS INGCO 5 1/2 Pol A BATERIA 42V LINHA P42M COM UMA BATERIA 2.0AH",
+        "modelo": "CSLI4214012-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/SerraCircularCSLI4214012-9.png",
+        "codigo": "CSLI4214012-9",
+        "descricao": "Feita para poda de galhos e arbustos com segurança, inclusive em altura nas versões com alcance estendido. Mais leve e silenciosa que uma motosserra convencional.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Podadora",
+            "Disco/encaixe: 1/2\"",
+            "Tensão: 42V",
+            "Motor: brushless (BL)"
+        ]
+    },
+    {
+        "titulo": "SERRA CIRCULAR BRUSHLESS INGCO 7 1/4 Pol A BATERIA 42V LINHA P42M COM 2 BATERIAS 2.5AH",
+        "modelo": "CSLI4218512-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/SerraCircularCSLI4218512-9.png",
+        "codigo": "CSLI4218512-9",
+        "descricao": "Faz cortes retos, profundos e rápidos em madeira e derivados. O diâmetro do disco em polegadas define a profundidade máxima de corte. A versão à bateria facilita o uso em telhados e locais sem tomada por perto.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Serra Circular",
+            "Disco/encaixe: 1/4\"",
+            "Tensão: 42V",
+            "Motor: brushless (BL)"
+        ]
     }
 ]
