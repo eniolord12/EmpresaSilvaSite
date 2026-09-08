@@ -125,20 +125,37 @@
         ]
     },
     {
-        "titulo": "Retífica BL INGCO 1/4\" à Bateria 42V — Desempenho profissional sem fio",
-        "modelo": "CDGLI42012-9",
+        "titulo": "ESMERILHADEIRA ANG BL INGCO 4.1/2Pol 1080W MAX 3 VELOC A BATERIA 42V LINHA P42M C 2 BAT 2.0AH",
+        "modelo": "CAGLI4108112-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/RetificaCDGLI42012-9.png",
-        "codigo": "CDGLI42012-9",
-        "descricao": "Usada para acabamento, desbaste fino, polimento e corte de precisão com pontas montadas e acessórios diversos. Comum em serralheria, marcenaria e trabalhos artesanais em metal, madeira e pedra.",
+        "img": "img/Produtos/EsmerilhadeiraCAGLI4108112-9.png",
+        "codigo": "CAGLI4108112-9",
+        "descricao": "Corta e desbasta metal, alvenaria, pedra e outros materiais conforme o disco instalado. O diâmetro do disco em polegadas define a profundidade de corte e a potência influencia o desempenho em uso prolongado. Sempre use a proteção e o disco correto para cada material.",
         "tituloDescricao": "Para que serve e quando usar",
         "tituloCaracteristicas": "Características Principais",
         "caracteristicas": [
-            "Tipo: Retífica",
+            "Tipo: Esmerilhadeira",
             "Motor: brushless",
             "Tensão: 42V",
-            "Disco/encaixe: 1/4\""
+            "Especificação principal: 4.1/2\""
+        ]
+    },
+    {
+        "titulo": "ESMERILHADEIRA ANG BL INGCO 4.1/2Pol 1280W MAX 3 VELOC A BATERIA 42V LINHA P42M C 2 BAT 2.5AH",
+        "modelo": "CAGLI4128112-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/EsmerilhadeiraCAGLI4128112-9.png",
+        "codigo": "CAGLI4128112-9",
+        "descricao": "Corta e desbasta metal, alvenaria, pedra e outros materiais conforme o disco instalado. O diâmetro do disco em polegadas define a profundidade de corte e a potência influencia o desempenho em uso prolongado. Sempre use a proteção e o disco correto para cada material.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Esmerilhadeira",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Especificação principal: 4.1/2\""
         ]
     }
 ]
