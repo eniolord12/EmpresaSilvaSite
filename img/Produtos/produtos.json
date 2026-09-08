@@ -36,21 +36,109 @@
         ]
     },
     {
-        "titulo": "Parafusadeira BL INGCO 69Nm 1/2\" à Bateria 42V",
-        "modelo": "CIDLI426981-9",
+        "titulo": "Chave de Impacto BL INGCO 460Nm 1/2\" à Bateria 42V",
+        "modelo": "CIWLI42461-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/ParafusadeiraCIDLI426981-9.png",
-        "codigo": "CIDLI426981-9",
-        "descricao": "É a ferramenta mais versátil da bancada: fura madeira, metal e alvenaria leve e aperta ou remove parafusos com controle de torque. A versão à bateria dá liberdade de movimento em obras e instalações. Para trabalhos mais pesados, observe o torque em Nm; para autonomia ao longo do dia, a tensão e a capacidade (Ah) da bateria são o que importa.",
+        "img": "img/Produtos/ChaveDeImpactoCIWLI42461-9.png",
+        "codigo": "CIWLI42461-9",
+        "descricao": "Entrega alto torque rotacional em impactos curtos para soltar e apertar porcas e parafusos travados — uso típico em mecânica, rodas e estruturas metálicas. Quanto maior o torque em Nm, maior a capacidade de vencer fixadores emperrados. O encaixe quadrado em polegadas define quais soquetes você usa.",
         "tituloDescricao": "Para que serve e quando usar",
         "tituloCaracteristicas": "Características Principais",
         "caracteristicas": [
-            "Tipo: Parafusadeira / Furadeira",
+            "Tipo: Chave de Impacto",
             "Motor: brushless",
             "Tensão: 42V",
-            "Torque: 69Nm",
+            "Torque: 460Nm",
             "Disco/encaixe: 1/2\""
+        ]
+    },
+    {
+        "titulo": "Chave de Impacto BL INGCO 600Nm 1/2\" à Bateria 42V",
+        "modelo": "CIWLI42602-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ChaveDeImpactoCIWLI42602-9.png",
+        "codigo": "CIWLI42602-9",
+        "descricao": "Entrega alto torque rotacional em impactos curtos para soltar e apertar porcas e parafusos travados — uso típico em mecânica, rodas e estruturas metálicas. Quanto maior o torque em Nm, maior a capacidade de vencer fixadores emperrados. O encaixe quadrado em polegadas define quais soquetes você usa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Chave de Impacto",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Torque: 600Nm",
+            "Disco/encaixe: 1/2\""
+        ]
+    },
+    {
+        "titulo": "Chave de Impacto BL INGCO 870Nm 1/2\" à Bateria 42V",
+        "modelo": "CIWLI42862-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ChaveDeImpactoCIWLI42862-9.png",
+        "codigo": "CIWLI42862-9",
+        "descricao": "Entrega alto torque rotacional em impactos curtos para soltar e apertar porcas e parafusos travados — uso típico em mecânica, rodas e estruturas metálicas. Quanto maior o torque em Nm, maior a capacidade de vencer fixadores emperrados. O encaixe quadrado em polegadas define quais soquetes você usa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Chave de Impacto",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Torque: 870Nm",
+            "Disco/encaixe: 1/2\""
+        ]
+    },
+    {
+        "titulo": "Chave de Impacto Brushless INGCO 1360Nm — Encaixe Quadrado 3/4\" à Bateria 42V",
+        "modelo": "CIWLI421362-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ChaveDeImpactoCIWLI421362-9.png",
+        "codigo": "CIWLI421362-9",
+        "descricao": "É a ferramenta ideal para serviços de alto torque: aperta e remove parafusos, porcas e conexões de grande dimensão em mecânica automotiva, montagem industrial e manutenção pesada. A versão à bateria dá liberdade de movimento no pátio e na oficina. Para trabalhos exigentes, observe o torque de aperto em Nm; o torque de desaperto ajuda em conexões travadas, e a tensão e a capacidade (Ah) da bateria definem a autonomia ao longo do dia.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Chave de Impacto",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Torque: 1360Nm",
+            "Disco/encaixe: 3/4\""
+        ]
+    },
+    {
+        "titulo": "Retífica BL INGCO 1/4\" à Bateria 42V — Desempenho profissional sem fio",
+        "modelo": "CDGLI42012-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/RetificaCDGLI42012-9.png",
+        "codigo": "CDGLI42012-9",
+        "descricao": "Usada para acabamento, desbaste fino, polimento e corte de precisão com pontas montadas e acessórios diversos. Comum em serralheria, marcenaria e trabalhos artesanais em metal, madeira e pedra.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Retífica",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Disco/encaixe: 1/4\""
+        ]
+    },
+    {
+        "titulo": "Retífica BL INGCO 1/4\" à Bateria 42V — Desempenho profissional sem fio",
+        "modelo": "CDGLI42012-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/RetificaCDGLI42012-9.png",
+        "codigo": "CDGLI42012-9",
+        "descricao": "Usada para acabamento, desbaste fino, polimento e corte de precisão com pontas montadas e acessórios diversos. Comum em serralheria, marcenaria e trabalhos artesanais em metal, madeira e pedra.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Retífica",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Disco/encaixe: 1/4\""
         ]
     }
 ]
