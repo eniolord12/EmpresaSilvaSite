@@ -1,137 +1,56 @@
 [
     {
-        "titulo": "Parafusadeira BL INGCO 69Nm 1/2in à Bateria 42V",
+        "titulo": "Parafusadeira BL INGCO 69Nm 1/2\" à Bateria 42V",
         "modelo": "CIDLI426981-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/ParafusadeiraCIDLI426981-9.jpg",
+        "img": "img/Produtos/ParafusadeiraCIDLI426981-9.png",
         "codigo": "CIDLI426981-9",
-        "descricao": "Esmerilhadeira potente para corte e desbaste com acabamento profissional."
+        "descricao": "É a ferramenta mais versátil da bancada: fura madeira, metal e alvenaria leve e aperta ou remove parafusos com controle de torque. A versão à bateria dá liberdade de movimento em obras e instalações. Para trabalhos mais pesados, observe o torque em Nm; para autonomia ao longo do dia, a tensão e a capacidade (Ah) da bateria são o que importa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Parafusadeira / Furadeira",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Torque: 69Nm",
+            "Disco/encaixe: 1/2\""
+        ]
     },
     {
-        "titulo": "Parafusadeira CIDLI429982-9",
+        "titulo": "Parafusadeira BL INGCO 99Nm 1/2\" à Bateria 42V",
         "modelo": "CIDLI429982-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
         "img": "img/Produtos/ParafusadeiraCIDLI429982-9.png",
         "codigo": "CIDLI429982-9",
-        "descricao": "A Parafusadeira 42V à bateria INGCO modelo CIDLI429982-9 combina potência, versatilidade e liberdade sem fio, proporcionando excelente desempenho tanto para profissionais quanto para usuários domésticos exigentes."
+        "descricao": "É a ferramenta mais versátil da bancada: fura madeira, metal e alvenaria leve e aperta ou remove parafusos com controle de torque. A versão à bateria dá liberdade de movimento em obras e instalações. Para trabalhos mais pesados, observe o torque em Nm; para autonomia ao longo do dia, a tensão e a capacidade (Ah) da bateria são o que importa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Parafusadeira / Furadeira",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Torque: 99Nm",
+            "Disco/encaixe: 1/2\""
+        ]
     },
     {
-        "titulo": "Disco de Corte",
-        "modelo": "DC-01",
-        "marca": "AEME",
-        "categoria": "Utilitários",
-        "img": "img/Produtos/disco-de-corte.jpeg",
-        "codigo": "1002",
-        "descricao": "Disco de corte resistente para diversos materiais, ideal para reparos rápidos."
-    },
-    {
-        "titulo": "Chave de Impacto CIWLI42602-9",
-        "modelo": "CIWLI42602-9",
+        "titulo": "Parafusadeira BL INGCO 69Nm 1/2\" à Bateria 42V",
+        "modelo": "CIDLI426981-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/ChaveDeImpactoCIWLI42602-9.png",
-        "codigo": "CIWLI42602-9",
-        "descricao": "Chave de impacto 42V para aperto de parafusos em locais de difícil acesso."
-    },
-    {
-        "titulo": "Protetor de Disco",
-        "modelo": "PD-01",
-        "marca": "Bosch",
-        "categoria": "Peças",
-        "img": "img/Produtos/protetor-de-disco.png",
-        "codigo": "1004",
-        "descricao": "Protetor de disco reforçado para uso seguro em máquinas de corte."
-    },
-    {
-        "titulo": "Mandril de aperto rápido",
-        "modelo": "MAQ-01",
-        "marca": "Genérico",
-        "categoria": "Peças",
-        "img": "img/Produtos/mandril-aperto-rapido.png",
-        "codigo": "1005",
-        "descricao": "Mandril de aperto rápido para troca ágil de brocas e acessórios."
-    },
-    {
-        "titulo": "Martelete 42V CRHLI422882-9",
-        "modelo": "CRHLI422882-9",
-        "marca": "Einhell",
-        "categoria": "Ferramentas",
-        "img": "img/Produtos/Martelete42VCRHLI422882-9.png",
-        "codigo": "CRHLI422882-9",
-        "descricao": "Martelete 42V potente para perfuração e demolição em concreto e alvenaria."
-    },
-    {
-        "titulo": "Esmerilhadeira Ingco 42V CAGLI4128112-9",
-        "modelo": "CAGLI4128112-9",
-        "marca": "Ingco",
-        "categoria": "Ferramentas",
-        "img": "img/Produtos/Esmerilhadeira42VCAGLI4128112-9.png",
-        "codigo": "CAGLI4128112-9",
-        "descricao": "Esmerilhadeira 42V potente para corte e desbaste com acabamento profissional."
-    },
-    {
-        "titulo": "Lanterna 42V CWLI42896-9",
-        "modelo": "CWLI42896-9",
-        "marca": "Ingco",
-        "categoria": "Ferramentas",
-        "img": "img/Produtos/Lanterna42VCWLI42896-9.png",
-        "codigo": "CWLI42896-9",
-        "descricao": "Lanterna 42V para iluminação em ambientes de trabalho."
-    },
-    {
-        "titulo": "Serra Circular 42V CSLI4214012-9",
-        "modelo": "CSLI4214012-9",
-        "marca": "Ingco",
-        "categoria": "Ferramentas",
-        "img": "img/Produtos/SerraCircular42VCSLI4214012-9.png",
-        "codigo": "CSLI4214012-9",
-        "descricao": "Serra circular 42V para corte preciso em diversos materiais."
-    },
-    {
-        "titulo": "Serra Circular 42V CSLI4218512-9",
-        "modelo": "CSLI4218512-9",
-        "marca": "Ingco",
-        "categoria": "Ferramentas",
-        "img": "img/Produtos/SerraCircular42VCSLI4218512-9.png",
-        "codigo": "CSLI4218512-9",
-        "descricao": "Serra circular 42V para corte preciso em diversos materiais."
-    },
-    {
-        "titulo": "Bateria 2.0Ah 42V FBLI42201",
-        "modelo": "FBLI42201",
-        "marca": "Ingco",
-        "categoria": "Ferramentas",
-        "img": "img/Produtos/Bateria42VFBLI42201.png",
-        "codigo": "FBLI42201",
-        "descricao": "Bateria 2.0Ah 42V para ferramentas elétricas."
-    },
-    {
-        "titulo": "Bateria 2.5Ah 42V FBLI42251",
-        "modelo": "FBLI42251",
-        "marca": "Ingco",
-        "categoria": "Ferramentas",
-        "img": "img/Produtos/Bateria2.5Ah42VFBLI42251.png",
-        "codigo": "FBLI42251",
-        "descricao": "Bateria 2.5Ah 42V para ferramentas elétricas."
-    },
-    {
-        "titulo": "Carregador de Bateria 2.0A 42V Bivolt FCLI42021",
-        "modelo": "FCLI42021",
-        "marca": "Ingco",
-        "categoria": "Ferramentas",
-        "img": "img/Produtos/CarregadorDeBateria2.0A42VBivoltFCLI42021-9.png",
-        "codigo": "FCLI42021",
-        "descricao": "Carregador de bateria 2.0A 42V Bivolt para ferramentas elétricas."
-    },
-    {
-        "titulo": "Alicate Para Anel Externo",
-        "modelo": "4711",
-        "marca": "Genérico",
-        "categoria": "Ferramentas",
-        "img": "img/Produtos/alicate-anel-externo-4711.png",
-        "codigo": "4711",
-        "descricao": "Alicate externo para remoção de anéis com firmeza e segurança."
+        "img": "img/Produtos/ParafusadeiraCIDLI426981-9.png",
+        "codigo": "CIDLI426981-9",
+        "descricao": "É a ferramenta mais versátil da bancada: fura madeira, metal e alvenaria leve e aperta ou remove parafusos com controle de torque. A versão à bateria dá liberdade de movimento em obras e instalações. Para trabalhos mais pesados, observe o torque em Nm; para autonomia ao longo do dia, a tensão e a capacidade (Ah) da bateria são o que importa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Parafusadeira / Furadeira",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Torque: 69Nm",
+            "Disco/encaixe: 1/2\""
+        ]
     }
 ]
