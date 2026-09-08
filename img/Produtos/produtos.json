@@ -209,5 +209,22 @@
             "Tensão: 42V",
             "Motor: brushless (BL)"
         ]
+    },
+    {
+        "titulo": "Motosserra BL INGCO 6\" à Bateria 42V",
+        "modelo": "CGSLI42681-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/MotoserraCGSLI42681-9.png",
+        "codigo": "CGSLI42681-9",
+        "descricao": "Ferramenta de corte para madeira e outros materiais conforme a lâmina ou disco; a versão à bateria amplia a mobilidade no canteiro.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Motosserra",
+            "Especificação principal: 6\"",
+            "Tensão: 42V",
+            "Motor: brushless (BL)"
+        ]
     }
 ]
