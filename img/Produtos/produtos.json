@@ -226,5 +226,37 @@
             "Tensão: 42V",
             "Motor: brushless (BL)"
         ]
+    },
+    {
+        "titulo": "MOTOPODA BL INGCO 8Pol A BATERIA 42V LINHA P42M COM 2 BATERIAS 2.0AH",
+        "modelo": "CGSLI42801-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/MotopodaPSLI42281-9.png",
+        "codigo": "CGSLI42801-9",
+        "descricao": "Feita para poda de galhos e arbustos com segurança, inclusive em altura nas versões com alcance estendido. Mais leve e silenciosa que uma motosserra convencional.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Podadora",
+            "Disco/encaixe: 8\"",
+            "Tensão: 42V",
+            "Motor: brushless (BL)"
+        ]
+    },
+    {
+        "titulo": "LANTERNA DE TRABALHO INGCO 2800 LUMENS A BATERIA 42V LINHA P42M COM 2 BATERIAS 2.0AH E CARREGADOR",
+        "modelo": "CWLI42896-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/LanternaCWLI42896-9.png",
+        "codigo": "CWLI42896-9",
+        "descricao": "Ilumina ambientes de obra, oficina, manutenção e emergências, aproveitando a mesma bateria das demais ferramentas da linha. O fluxo luminoso em lúmens indica a intensidade — quanto maior, mais ampla a área iluminada.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Lanterna",
+            "Tensão: 42V"
+        ]
     }
 ]
