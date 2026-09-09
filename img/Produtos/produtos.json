@@ -258,5 +258,39 @@
             "Tipo: Lanterna",
             "Tensão: 42V"
         ]
+    },
+    {
+        "titulo": "MARTELETE COMBINADO BRUSHLESS INGCO 26MM 2.5J SDS PLUS A BATERIA 42V LINHA P42M C 2 BATERIAS 2.0AH",
+        "modelo": "CRHLI422682-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/MarteleteCRHLI422682-9.png",
+        "codigo": "CRHLI422682-9",
+        "descricao": "Perfura concreto, pedra e alvenaria e, na função de impacto, auxilia em pequenas demolições e remoção de revestimentos. A energia de impacto em Joules (J) é o que determina a eficiência de perfuração. O sistema SDS-PLUS permite trocar brocas sem chave.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Martelete",
+            "Motor: brushless",
+            "Energia de impacto: 2,5J",
+            "Tensão: 42V"
+        ]
+    },
+    {
+        "titulo": "MARTELETE COMBINADO BRUSHLESS INGCO 26MM 3.0J SDS PLUS A BATERIA 42V LINHA P42M C 2 BATERIAS 2.5AH",
+        "modelo": "CRHLI422683-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/MarteleteCRHLI422683-9.png",
+        "codigo": "CRHLI422683-9",
+        "descricao": "Perfura concreto, pedra e alvenaria e, na função de impacto, auxilia em pequenas demolições e remoção de revestimentos. A energia de impacto em Joules (J) é o que determina a eficiência de perfuração. O sistema SDS-PLUS permite trocar brocas sem chave.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Martelete",
+            "Motor: brushless",
+            "Energia de impacto: 3,0J",
+            "Tensão: 42V"
+        ]
     }
 ]
