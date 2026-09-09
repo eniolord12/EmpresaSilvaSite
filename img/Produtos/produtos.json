@@ -277,20 +277,105 @@
         ]
     },
     {
-        "titulo": "MARTELETE COMBINADO BRUSHLESS INGCO 26MM 3.0J SDS PLUS A BATERIA 42V LINHA P42M C 2 BATERIAS 2.5AH",
-        "modelo": "CRHLI422683-9",
+        "titulo": "MARTELETE COMBINADO BRUSHLESS INGCO 28MM 4.5J SDS PLUS A BATERIA 42V LINHA P42M C 2 BATERIAS 2.5AH",
+        "modelo": "CCRHLI422882-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/MarteleteCRHLI422683-9.png",
-        "codigo": "CRHLI422683-9",
+        "img": "img/Produtos/MarteleteCRHLI422882-9.png",
+        "codigo": "CCRHLI422882-9",
         "descricao": "Perfura concreto, pedra e alvenaria e, na função de impacto, auxilia em pequenas demolições e remoção de revestimentos. A energia de impacto em Joules (J) é o que determina a eficiência de perfuração. O sistema SDS-PLUS permite trocar brocas sem chave.",
         "tituloDescricao": "Para que serve e quando usar",
         "tituloCaracteristicas": "Características Principais",
         "caracteristicas": [
             "Tipo: Martelete",
             "Motor: brushless",
-            "Energia de impacto: 3,0J",
+            "Energia de impacto: 4,5J",
             "Tensão: 42V"
+        ]
+    },
+    {
+        "titulo": "Martelo Demolidor BL INGCO 18J HEX à Bateria 42V",
+        "modelo": "CDBLI423582-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/MarteleteCDBLI423582-9.png",
+        "codigo": "CDBLI423582-9",
+        "descricao": "O martelo demolidor INGCO à bateria 42V combina potência e mobilidade em um só equipamento. Equipado com motor Brushless de alto rendimento e 18J de força de impacto, oferece desempenho de demolição sem a limitação de cabos, ideal para obras e serviços profissionais de rompimento e demolição.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Martelete",
+            "Motor: brushless",
+            "Energia de impacto: 18J",
+            "Taxa de impacto: 0-3.300ipm",
+            "Sistema de mandril: SDS HEX",
+            "Tensão: 42V"
+        ]
+    },
+    {
+        "titulo": "BATERIA ÍON-LÍTIO INGCO 2.0Ah 42V LINHA P42M",
+        "modelo": "FBLI42201",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/BateriaFBLI42201.png",
+        "codigo": "FBLI42201",
+        "descricao": "Alimenta as ferramentas da mesma linha de tensão, sendo intercambiável entre elas. A capacidade em Ah define a autonomia — quanto maior, mais tempo de trabalho entre recargas. Vale ter baterias reserva para uso contínuo.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Bateria",
+            "Especificação principal: 2.0Ah",
+            "Tensão: 42V"
+        ]
+    },
+    {
+        "titulo": "BATERIA ÍON-LÍTIO INGCO 2.5Ah 42V LINHA P42M",
+        "modelo": "FBLI42251",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/BateriaFBLI42251.png",
+        "codigo": "FBLI42251",
+        "descricao": "Alimenta as ferramentas da mesma linha de tensão, sendo intercambiável entre elas. A capacidade em Ah define a autonomia — quanto maior, mais tempo de trabalho entre recargas. Vale ter baterias reserva para uso contínuo.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Bateria",
+            "Especificação principal: 2.5Ah",
+            "Tensão: 42V"
+        ]
+    },
+    {
+        "titulo": "CARREGADOR DE BATERIA INTELIGENTE INGCO 42V 2.0A BIVOLT 110-240V LINHA P42M",
+        "modelo": "FCLI42021-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/CarregadorFCLI42021-9.png",
+        "codigo": "FCLI42021-9",
+        "descricao": "Reúne bateria e carregador da linha para quem está montando ou ampliando seu conjunto de ferramentas. A capacidade em Ah e a velocidade de recarga determinam autonomia e tempo de espera.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Carregador",
+            "Compatibilidade: baterias 42V da linha P42M INGCO",
+            "Corrente de carga: 2.0A",
+            "Alimentação: bivolt 110-240V"
+        ]
+    },
+    {
+        "titulo": "CARREGADOR DE BATERIA INTELIGENTE INGCO 42V 4.0A BIVOLT 110-240V LINHA P42M",
+        "modelo": "FCLI42041-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/CarregadorFCLI42041-9.png",
+        "codigo": "FCLI42041-9",
+        "descricao": "O Carregador de Bateria Inteligente INGCO foi desenvolvido para recarregar as baterias de 42V da linha P42M INGCO. Com corrente de carga de 4.0A e entrada bivolt de 110-240V, oferece recarga prática em qualquer tomada do Brasil.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Carregador",
+            "Compatibilidade: baterias 42V da linha P42M INGCO",
+            "Corrente de carga: 4.0A",
+            "Alimentação: bivolt 110-240V"
         ]
     }
 ]
