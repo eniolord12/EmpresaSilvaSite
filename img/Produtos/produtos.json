@@ -1,6 +1,7 @@
 [
     {
         "titulo": "PARAFUSADEIRA BL INGCO 69NM 1/2\" À BATERIA 42V",
+        "produto": "Parafusadeira",
         "modelo": "CIDLI426981-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -19,6 +20,7 @@
     },
     {
         "titulo": "PARAFUSADEIRA BL INGCO 99NM 1/2\" À BATERIA 42V",
+        "produto": "Parafusadeira",
         "modelo": "CIDLI429982-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -37,6 +39,7 @@
     },
     {
         "titulo": "CHAVE DE IMPACTO BL INGCO 460NM 1/2\" À BATERIA 42V",
+        "produto": "Chave de Impacto",
         "modelo": "CIWLI42461-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -55,6 +58,7 @@
     },
     {
         "titulo": "CHAVE DE IMPACTO BL INGCO 600NM 1/2\" À BATERIA 42V",
+        "produto": "Chave de Impacto",
         "modelo": "CIWLI42602-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -73,6 +77,7 @@
     },
     {
         "titulo": "CHAVE DE IMPACTO BL INGCO 870NM 1/2\" À BATERIA 42V",
+        "produto": "Chave de Impacto",
         "modelo": "CIWLI42862-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -91,6 +96,7 @@
     },
     {
         "titulo": "CHAVE DE IMPACTO BRUSHLESS INGCO 1360NM — ENCAIXE QUADRADO 3/4\" À BATERIA 42V",
+        "produto": "Chave de Impacto",
         "modelo": "CIWLI421362-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -109,6 +115,7 @@
     },
     {
         "titulo": "RETÍFICA BL INGCO 1/4\" À BATERIA 42V — DESEMPENHO PROFISSIONAL SEM FIO",
+        "produto": "Retífica",
         "modelo": "CDGLI42012-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -126,6 +133,7 @@
     },
     {
         "titulo": "ESMERILHADEIRA ANG BL INGCO 4.1/2POL 1080W MAX 3 VELOC A BATERIA 42V LINHA P42M C 2 BAT 2.0AH",
+        "produto": "Esmerilhadeira",
         "modelo": "CAGLI4108112-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -143,6 +151,7 @@
     },
     {
         "titulo": "ESMERILHADEIRA ANG BL INGCO 4.1/2POL 1280W MAX 3 VELOC A BATERIA 42V LINHA P42M C 2 BAT 2.5AH",
+        "produto": "Esmerilhadeira",
         "modelo": "CAGLI4128112-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -160,6 +169,7 @@
     },
     {
         "titulo": "ESMERILHADEIRA ANGULAR BL INGCO 9POL 2600W MAX À BATERIA 42V LINHA P42M",
+        "produto": "Esmerilhadeira",
         "modelo": "CAGLI4260182-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -178,6 +188,7 @@
     },
     {
         "titulo": "SERRA CIRCULAR BRUSHLESS INGCO 5 1/2 POL A BATERIA 42V LINHA P42M COM UMA BATERIA 2.0AH",
+        "produto": "Serra Circular",
         "modelo": "CSLI4214012-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -195,6 +206,7 @@
     },
     {
         "titulo": "SERRA CIRCULAR BRUSHLESS INGCO 7 1/4 POL A BATERIA 42V LINHA P42M COM 2 BATERIAS 2.5AH",
+        "produto": "Serra Circular",
         "modelo": "CSLI4218512-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -212,6 +224,7 @@
     },
     {
         "titulo": "MOTOSSERRA BL INGCO 6\" À BATERIA 42V",
+        "produto": "Motosserra",
         "modelo": "CGSLI42681-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -229,6 +242,7 @@
     },
     {
         "titulo": "MOTOPODA BL INGCO 8POL A BATERIA 42V LINHA P42M COM 2 BATERIAS 2.0AH",
+        "produto": "Motopoda",
         "modelo": "CGSLI42801-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -246,6 +260,7 @@
     },
     {
         "titulo": "LANTERNA DE TRABALHO INGCO 2800 LUMENS A BATERIA 42V LINHA P42M COM 2 BATERIAS 2.0AH E CARREGADOR",
+        "produto": "Lanterna",
         "modelo": "CWLI42896-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -261,6 +276,7 @@
     },
     {
         "titulo": "MARTELETE COMBINADO BRUSHLESS INGCO 26MM 2.5J SDS PLUS A BATERIA 42V LINHA P42M C 2 BATERIAS 2.0AH",
+        "produto": "Martelete",
         "modelo": "CRHLI422682-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -278,6 +294,7 @@
     },
     {
         "titulo": "MARTELETE COMBINADO BRUSHLESS INGCO 28MM 4.5J SDS PLUS A BATERIA 42V LINHA P42M C 2 BATERIAS 2.5AH",
+        "produto": "Martelete",
         "modelo": "CCRHLI422882-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -295,6 +312,7 @@
     },
     {
         "titulo": "MARTELO DEMOLIDOR BL INGCO 18J HEX À BATERIA 42V",
+        "produto": "Martelete",
         "modelo": "CDBLI423582-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -314,6 +332,7 @@
     },
     {
         "titulo": "BATERIA ÍON-LÍTIO INGCO 2.0AH 42V LINHA P42M",
+        "produto": "Bateria",
         "modelo": "FBLI42201",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -330,6 +349,7 @@
     },
     {
         "titulo": "BATERIA ÍON-LÍTIO INGCO 2.5AH 42V LINHA P42M",
+        "produto": "Bateria",
         "modelo": "FBLI42251",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -346,6 +366,7 @@
     },
     {
         "titulo": "CARREGADOR DE BATERIA INTELIGENTE INGCO 42V 2.0A BIVOLT 110-240V LINHA P42M",
+        "produto": "Carregador",
         "modelo": "FCLI42021-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -363,6 +384,7 @@
     },
     {
         "titulo": "CARREGADOR DE BATERIA INTELIGENTE INGCO 42V 4.0A BIVOLT 110-240V LINHA P42M",
+        "produto": "Carregador",
         "modelo": "FCLI42041-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -380,6 +402,7 @@
     },
     {
         "titulo": "PARAF/FURADEIRA BL INGCO 55 NM 1/2POL A BATERIA 20V LINHA P20S",
+        "produto": "Parafusadeira",
         "modelo": "CDLI205581",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -398,6 +421,7 @@
     },
     {
         "titulo": "PARAFUSADEIRA E FURADEIRA BL 55NM 1/2\" BATERIA 20V LINHA P20S COM 1 BATERIA 2AH INGCO",
+        "produto": "Parafusadeira",
         "modelo": "CDLI205582-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -416,6 +440,7 @@
     },
     {
         "titulo": "PARAF/FURADEIRA BL INGCO 55 NM 1/2POL A BATERIA 20V LINHA P20S",
+        "produto": "Parafusadeira",
         "modelo": "CIDLI205581",
         "marca": "Ingco",
         "categoria": "Ferramentas",
@@ -434,6 +459,7 @@
     },
     {
         "titulo": "PARAFUSADEIRA E FURADEIRA BL 55NM 1/2\" BATERIA 20V LINHA P20S COM 2 BATERIAS 2AH INGCO",
+        "produto": "Parafusadeira",
         "modelo": "CIDLI20558-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
