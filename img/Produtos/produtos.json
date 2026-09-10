@@ -377,5 +377,77 @@
             "Corrente de carga: 4.0A",
             "Alimentação: bivolt 110-240V"
         ]
+    },
+    {
+        "titulo": "PARAF/FURADEIRA BL INGCO 55 Nm 1/2Pol A BATERIA 20V LINHA P20S",
+        "modelo": "CDLI205581",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ParafusadeiraCDLI205581.png",
+        "codigo": "CDLI205581",
+        "descricao": "É a ferramenta mais versátil da bancada: fura madeira, metal e alvenaria leve e aperta ou remove parafusos com controle de torque. A versão à bateria dá liberdade de movimento em obras e instalações. Para trabalhos mais pesados, observe o torque em Nm; para autonomia ao longo do dia, a tensão e a capacidade (Ah) da bateria são o que importa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Parafusadeira",
+            "Motor: brushless",
+            "Tensão: 20V",
+            "Torque: 55 Nm",
+            "Disco/encaixe: 1/2\""
+        ]
+    },
+    {
+        "titulo": "Parafusadeira e Furadeira BL 55Nm 1/2\" Bateria 20V Linha P20S com 1 Bateria 2Ah INGCO",
+        "modelo": "CDLI205582-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ParafusadeiraCDLI205582-9.png",
+        "codigo": "CDLI205582-9",
+        "descricao": "A Parafusadeira e Furadeira BL 55Nm 1/2\" Bateria 20V Linha P20S com 1 Bateria 2Ah INGCO é uma ferramenta sem fio equipada com motor brushless, torque máximo de 55Nm e mandril de 1/2\". Alimentada por bateria de 20V e integrante da Linha P20S, é indicada para perfurações em madeira, metal e alvenaria leve, além de trabalhos de aperto e remoção de parafusos com controle de torque. Possui luz de trabalho integrada e indicador LED de nível da bateria. 12 meses de garantia.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Parafusadeira",
+            "Motor: brushless",
+            "Tensão: 20V",
+            "Torque: 55 Nm",
+            "Disco/encaixe: 1/2\""
+        ]
+    },
+    {
+        "titulo": "PARAF/FURADEIRA BL INGCO 55 Nm 1/2Pol A BATERIA 20V LINHA P20S",
+        "modelo": "CIDLI205581",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ParafusadeiraCIDLI205581.png",
+        "codigo": "CIDLI205581",
+        "descricao": "É a ferramenta mais versátil da bancada: fura madeira, metal e alvenaria leve e aperta ou remove parafusos com controle de torque e impacto. A versão à bateria dá liberdade de movimento em obras e instalações. Para trabalhos mais pesados, observe o torque em Nm; para autonomia ao longo do dia, a tensão e a capacidade (Ah) da bateria são o que importa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Parafusadeira",
+            "Motor: brushless",
+            "Tensão: 20V",
+            "Torque: 55 Nm",
+            "Disco/encaixe: 1/2\""
+        ]
+    },
+    {
+        "titulo": "Parafusadeira e Furadeira BL 55Nm 1/2\" Bateria 20V Linha P20S com 2 Baterias 2Ah INGCO",
+        "modelo": "CIDLI20558-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ParafusadeiraCIDLI20558-9.png",
+        "codigo": "CIDLI20558-9",
+        "descricao": "A Parafusadeira e Furadeira BL 55Nm 1/2\" Bateria 20V Linha P20S com 2 Baterias 2Ah INGCO é uma ferramenta sem fio equipada com motor brushless, torque máximo de 55Nm, função impacto e mandril de 1/2\". Alimentada por bateria de 20V e integrante da Linha P20S, é indicada para perfurações em madeira, metal e alvenaria, além de trabalhos de aperto e remoção de parafusos com controle de torque. 12 meses de garantia.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Parafusadeira",
+            "Motor: brushless",
+            "Tensão: 20V",
+            "Torque: 55 Nm",
+            "Disco/encaixe: 1/2\""
+        ]
     }
 ]
