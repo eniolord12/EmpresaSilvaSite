@@ -1,137 +1,381 @@
 [
     {
-        "titulo": "Esmerilhadeira Ingco",
-        "modelo": "UAG90028-91",
+        "titulo": "Parafusadeira BL INGCO 69Nm 1/2\" à Bateria 42V",
+        "modelo": "CIDLI426981-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/esmerilhadeiraIngco.png",
-        "codigo": "5099",
-        "descricao": "Esmerilhadeira potente para corte e desbaste com acabamento profissional."
+        "img": "img/Produtos/ParafusadeiraCIDLI426981-9.png",
+        "codigo": "CIDLI426981-9",
+        "descricao": "É a ferramenta mais versátil da bancada: fura madeira, metal e alvenaria leve e aperta ou remove parafusos com controle de torque. A versão à bateria dá liberdade de movimento em obras e instalações. Para trabalhos mais pesados, observe o torque em Nm; para autonomia ao longo do dia, a tensão e a capacidade (Ah) da bateria são o que importa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Parafusadeira / Furadeira",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Torque: 69Nm",
+            "Disco/encaixe: 1/2\""
+        ]
     },
     {
-        "titulo": "Parafusadeira 42V CIDLI429982-9",
+        "titulo": "Parafusadeira BL INGCO 99Nm 1/2\" à Bateria 42V",
         "modelo": "CIDLI429982-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
         "img": "img/Produtos/ParafusadeiraCIDLI429982-9.png",
         "codigo": "CIDLI429982-9",
-        "descricao": "A Parafusadeira 42V à bateria INGCO modelo CIDLI429982-9 combina potência, versatilidade e liberdade sem fio, proporcionando excelente desempenho tanto para profissionais quanto para usuários domésticos exigentes."
+        "descricao": "É a ferramenta mais versátil da bancada: fura madeira, metal e alvenaria leve e aperta ou remove parafusos com controle de torque. A versão à bateria dá liberdade de movimento em obras e instalações. Para trabalhos mais pesados, observe o torque em Nm; para autonomia ao longo do dia, a tensão e a capacidade (Ah) da bateria são o que importa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Parafusadeira / Furadeira",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Torque: 99Nm",
+            "Disco/encaixe: 1/2\""
+        ]
     },
     {
-        "titulo": "Disco de Corte",
-        "modelo": "DC-01",
-        "marca": "AEME",
-        "categoria": "Utilitários",
-        "img": "img/Produtos/disco-de-corte.jpeg",
-        "codigo": "1002",
-        "descricao": "Disco de corte resistente para diversos materiais, ideal para reparos rápidos."
+        "titulo": "Chave de Impacto BL INGCO 460Nm 1/2\" à Bateria 42V",
+        "modelo": "CIWLI42461-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ChaveDeImpactoCIWLI42461-9.png",
+        "codigo": "CIWLI42461-9",
+        "descricao": "Entrega alto torque rotacional em impactos curtos para soltar e apertar porcas e parafusos travados — uso típico em mecânica, rodas e estruturas metálicas. Quanto maior o torque em Nm, maior a capacidade de vencer fixadores emperrados. O encaixe quadrado em polegadas define quais soquetes você usa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Chave de Impacto",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Torque: 460Nm",
+            "Disco/encaixe: 1/2\""
+        ]
     },
     {
-        "titulo": "Chave de Impacto 42V CIWLI42602-9",
+        "titulo": "Chave de Impacto BL INGCO 600Nm 1/2\" à Bateria 42V",
         "modelo": "CIWLI42602-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
         "img": "img/Produtos/ChaveDeImpactoCIWLI42602-9.png",
         "codigo": "CIWLI42602-9",
-        "descricao": "Chave de impacto 42V para aperto de parafusos em locais de difícil acesso."
+        "descricao": "Entrega alto torque rotacional em impactos curtos para soltar e apertar porcas e parafusos travados — uso típico em mecânica, rodas e estruturas metálicas. Quanto maior o torque em Nm, maior a capacidade de vencer fixadores emperrados. O encaixe quadrado em polegadas define quais soquetes você usa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Chave de Impacto",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Torque: 600Nm",
+            "Disco/encaixe: 1/2\""
+        ]
     },
     {
-        "titulo": "Protetor de Disco",
-        "modelo": "PD-01",
-        "marca": "Bosch",
-        "categoria": "Peças",
-        "img": "img/Produtos/protetor-de-disco.png",
-        "codigo": "1004",
-        "descricao": "Protetor de disco reforçado para uso seguro em máquinas de corte."
-    },
-    {
-        "titulo": "Mandril de aperto rápido",
-        "modelo": "MAQ-01",
-        "marca": "Genérico",
-        "categoria": "Peças",
-        "img": "img/Produtos/mandril-aperto-rapido.png",
-        "codigo": "1005",
-        "descricao": "Mandril de aperto rápido para troca ágil de brocas e acessórios."
-    },
-    {
-        "titulo": "Martelete 42V CRHLI422882-9",
-        "modelo": "CRHLI422882-9",
-        "marca": "Einhell",
+        "titulo": "Chave de Impacto BL INGCO 870Nm 1/2\" à Bateria 42V",
+        "modelo": "CIWLI42862-9",
+        "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/Martelete42VCRHLI422882-9.png",
-        "codigo": "CRHLI422882-9",
-        "descricao": "Martelete 42V potente para perfuração e demolição em concreto e alvenaria."
+        "img": "img/Produtos/ChaveDeImpactoCIWLI42862-9.png",
+        "codigo": "CIWLI42862-9",
+        "descricao": "Entrega alto torque rotacional em impactos curtos para soltar e apertar porcas e parafusos travados — uso típico em mecânica, rodas e estruturas metálicas. Quanto maior o torque em Nm, maior a capacidade de vencer fixadores emperrados. O encaixe quadrado em polegadas define quais soquetes você usa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Chave de Impacto",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Torque: 870Nm",
+            "Disco/encaixe: 1/2\""
+        ]
     },
     {
-        "titulo": "Esmerilhadeira 42V CAGLI4128112-9",
+        "titulo": "Chave de Impacto Brushless INGCO 1360Nm — Encaixe Quadrado 3/4\" à Bateria 42V",
+        "modelo": "CIWLI421362-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ChaveDeImpactoCIWLI421362-9.png",
+        "codigo": "CIWLI421362-9",
+        "descricao": "É a ferramenta ideal para serviços de alto torque: aperta e remove parafusos, porcas e conexões de grande dimensão em mecânica automotiva, montagem industrial e manutenção pesada. A versão à bateria dá liberdade de movimento no pátio e na oficina. Para trabalhos exigentes, observe o torque de aperto em Nm; o torque de desaperto ajuda em conexões travadas, e a tensão e a capacidade (Ah) da bateria definem a autonomia ao longo do dia.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Chave de Impacto",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Torque: 1360Nm",
+            "Disco/encaixe: 3/4\""
+        ]
+    },
+    {
+        "titulo": "Retífica BL INGCO 1/4\" à Bateria 42V — Desempenho profissional sem fio",
+        "modelo": "CDGLI42012-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/RetificaCDGLI42012-9.png",
+        "codigo": "CDGLI42012-9",
+        "descricao": "Usada para acabamento, desbaste fino, polimento e corte de precisão com pontas montadas e acessórios diversos. Comum em serralheria, marcenaria e trabalhos artesanais em metal, madeira e pedra.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Retífica",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Disco/encaixe: 1/4\""
+        ]
+    },
+    {
+        "titulo": "ESMERILHADEIRA ANG BL INGCO 4.1/2Pol 1080W MAX 3 VELOC A BATERIA 42V LINHA P42M C 2 BAT 2.0AH",
+        "modelo": "CAGLI4108112-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/EsmerilhadeiraCAGLI4108112-9.png",
+        "codigo": "CAGLI4108112-9",
+        "descricao": "Corta e desbasta metal, alvenaria, pedra e outros materiais conforme o disco instalado. O diâmetro do disco em polegadas define a profundidade de corte e a potência influencia o desempenho em uso prolongado. Sempre use a proteção e o disco correto para cada material.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Esmerilhadeira",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Especificação principal: 4.1/2\""
+        ]
+    },
+    {
+        "titulo": "ESMERILHADEIRA ANG BL INGCO 4.1/2Pol 1280W MAX 3 VELOC A BATERIA 42V LINHA P42M C 2 BAT 2.5AH",
         "modelo": "CAGLI4128112-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/Esmerilhadeira42VCAGLI4128112-9.png",
+        "img": "img/Produtos/EsmerilhadeiraCAGLI4128112-9.png",
         "codigo": "CAGLI4128112-9",
-        "descricao": "Esmerilhadeira 42V potente para corte e desbaste com acabamento profissional."
+        "descricao": "Corta e desbasta metal, alvenaria, pedra e outros materiais conforme o disco instalado. O diâmetro do disco em polegadas define a profundidade de corte e a potência influencia o desempenho em uso prolongado. Sempre use a proteção e o disco correto para cada material.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Esmerilhadeira",
+            "Motor: brushless",
+            "Tensão: 42V",
+            "Especificação principal: 4.1/2\""
+        ]
     },
     {
-        "titulo": "Lanterna 42V CWLI42896-9",
-        "modelo": "CWLI42896-9",
+        "titulo": "Esmerilhadeira Angular BL INGCO 9Pol 2600W Max À Bateria 42V Linha P42M",
+        "modelo": "CAGLI4260182-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/Lanterna42VCWLI42896-9.png",
-        "codigo": "CWLI42896-9",
-        "descricao": "Lanterna 42V para iluminação em ambientes de trabalho."
+        "img": "img/Produtos/EsmerilhadeiraCAGLI4260182-9.png",
+        "codigo": "CAGLI4260182-9",
+        "descricao": "A Esmerilhadeira Angular BL INGCO de 9Pol e potência de 2600W Max com alimentação à bateria 42V (linha P42M) oferece desempenho de ferramenta com fio, sem a limitação dos cabos. O motor brushless proporciona força para corte e desbaste pesado em metal, concreto e alvenaria, com a autonomia da plataforma 42V.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Disco: 9Pol",
+            "Potência: 2600W Max",
+            "Tensão: 42V",
+            "Motor: brushless (BL)",
+            "Carregador: 4A"
+        ]
     },
     {
-        "titulo": "Serra Circular 42V CSLI4214012-9",
+        "titulo": "SERRA CIRCULAR BRUSHLESS INGCO 5 1/2 Pol A BATERIA 42V LINHA P42M COM UMA BATERIA 2.0AH",
         "modelo": "CSLI4214012-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/SerraCircular42VCSLI4214012-9.png",
+        "img": "img/Produtos/SerraCircularCSLI4214012-9.png",
         "codigo": "CSLI4214012-9",
-        "descricao": "Serra circular 42V para corte preciso em diversos materiais."
+        "descricao": "Feita para poda de galhos e arbustos com segurança, inclusive em altura nas versões com alcance estendido. Mais leve e silenciosa que uma motosserra convencional.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Podadora",
+            "Disco/encaixe: 1/2\"",
+            "Tensão: 42V",
+            "Motor: brushless (BL)"
+        ]
     },
     {
-        "titulo": "Serra Circular 42V CSLI4218512-9",
+        "titulo": "SERRA CIRCULAR BRUSHLESS INGCO 7 1/4 Pol A BATERIA 42V LINHA P42M COM 2 BATERIAS 2.5AH",
         "modelo": "CSLI4218512-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/SerraCircular42VCSLI4218512-9.png",
+        "img": "img/Produtos/SerraCircularCSLI4218512-9.png",
         "codigo": "CSLI4218512-9",
-        "descricao": "Serra circular 42V para corte preciso em diversos materiais."
+        "descricao": "Faz cortes retos, profundos e rápidos em madeira e derivados. O diâmetro do disco em polegadas define a profundidade máxima de corte. A versão à bateria facilita o uso em telhados e locais sem tomada por perto.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Serra Circular",
+            "Disco/encaixe: 1/4\"",
+            "Tensão: 42V",
+            "Motor: brushless (BL)"
+        ]
     },
     {
-        "titulo": "Bateria 2.0Ah 42V FBLI42201",
+        "titulo": "Motosserra BL INGCO 6\" à Bateria 42V",
+        "modelo": "CGSLI42681-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/MotoserraCGSLI42681-9.png",
+        "codigo": "CGSLI42681-9",
+        "descricao": "Ferramenta de corte para madeira e outros materiais conforme a lâmina ou disco; a versão à bateria amplia a mobilidade no canteiro.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Motosserra",
+            "Especificação principal: 6\"",
+            "Tensão: 42V",
+            "Motor: brushless (BL)"
+        ]
+    },
+    {
+        "titulo": "MOTOPODA BL INGCO 8Pol A BATERIA 42V LINHA P42M COM 2 BATERIAS 2.0AH",
+        "modelo": "CGSLI42801-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/MotopodaPSLI42281-9.png",
+        "codigo": "CGSLI42801-9",
+        "descricao": "Feita para poda de galhos e arbustos com segurança, inclusive em altura nas versões com alcance estendido. Mais leve e silenciosa que uma motosserra convencional.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Podadora",
+            "Disco/encaixe: 8\"",
+            "Tensão: 42V",
+            "Motor: brushless (BL)"
+        ]
+    },
+    {
+        "titulo": "LANTERNA DE TRABALHO INGCO 2800 LUMENS A BATERIA 42V LINHA P42M COM 2 BATERIAS 2.0AH E CARREGADOR",
+        "modelo": "CWLI42896-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/LanternaCWLI42896-9.png",
+        "codigo": "CWLI42896-9",
+        "descricao": "Ilumina ambientes de obra, oficina, manutenção e emergências, aproveitando a mesma bateria das demais ferramentas da linha. O fluxo luminoso em lúmens indica a intensidade — quanto maior, mais ampla a área iluminada.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Lanterna",
+            "Tensão: 42V"
+        ]
+    },
+    {
+        "titulo": "MARTELETE COMBINADO BRUSHLESS INGCO 26MM 2.5J SDS PLUS A BATERIA 42V LINHA P42M C 2 BATERIAS 2.0AH",
+        "modelo": "CRHLI422682-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/MarteleteCRHLI422682-9.png",
+        "codigo": "CRHLI422682-9",
+        "descricao": "Perfura concreto, pedra e alvenaria e, na função de impacto, auxilia em pequenas demolições e remoção de revestimentos. A energia de impacto em Joules (J) é o que determina a eficiência de perfuração. O sistema SDS-PLUS permite trocar brocas sem chave.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Martelete",
+            "Motor: brushless",
+            "Energia de impacto: 2,5J",
+            "Tensão: 42V"
+        ]
+    },
+    {
+        "titulo": "MARTELETE COMBINADO BRUSHLESS INGCO 28MM 4.5J SDS PLUS A BATERIA 42V LINHA P42M C 2 BATERIAS 2.5AH",
+        "modelo": "CCRHLI422882-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/MarteleteCRHLI422882-9.png",
+        "codigo": "CCRHLI422882-9",
+        "descricao": "Perfura concreto, pedra e alvenaria e, na função de impacto, auxilia em pequenas demolições e remoção de revestimentos. A energia de impacto em Joules (J) é o que determina a eficiência de perfuração. O sistema SDS-PLUS permite trocar brocas sem chave.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Martelete",
+            "Motor: brushless",
+            "Energia de impacto: 4,5J",
+            "Tensão: 42V"
+        ]
+    },
+    {
+        "titulo": "Martelo Demolidor BL INGCO 18J HEX à Bateria 42V",
+        "modelo": "CDBLI423582-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/MarteleteCDBLI423582-9.png",
+        "codigo": "CDBLI423582-9",
+        "descricao": "O martelo demolidor INGCO à bateria 42V combina potência e mobilidade em um só equipamento. Equipado com motor Brushless de alto rendimento e 18J de força de impacto, oferece desempenho de demolição sem a limitação de cabos, ideal para obras e serviços profissionais de rompimento e demolição.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Martelete",
+            "Motor: brushless",
+            "Energia de impacto: 18J",
+            "Taxa de impacto: 0-3.300ipm",
+            "Sistema de mandril: SDS HEX",
+            "Tensão: 42V"
+        ]
+    },
+    {
+        "titulo": "BATERIA ÍON-LÍTIO INGCO 2.0Ah 42V LINHA P42M",
         "modelo": "FBLI42201",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/Bateria42VFBLI42201.png",
+        "img": "img/Produtos/BateriaFBLI42201.png",
         "codigo": "FBLI42201",
-        "descricao": "Bateria 2.0Ah 42V para ferramentas elétricas."
+        "descricao": "Alimenta as ferramentas da mesma linha de tensão, sendo intercambiável entre elas. A capacidade em Ah define a autonomia — quanto maior, mais tempo de trabalho entre recargas. Vale ter baterias reserva para uso contínuo.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Bateria",
+            "Especificação principal: 2.0Ah",
+            "Tensão: 42V"
+        ]
     },
     {
-        "titulo": "Bateria 2.5Ah 42V FBLI42251",
+        "titulo": "BATERIA ÍON-LÍTIO INGCO 2.5Ah 42V LINHA P42M",
         "modelo": "FBLI42251",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/Bateria2.5Ah42VFBLI42251.png",
+        "img": "img/Produtos/BateriaFBLI42251.png",
         "codigo": "FBLI42251",
-        "descricao": "Bateria 2.5Ah 42V para ferramentas elétricas."
+        "descricao": "Alimenta as ferramentas da mesma linha de tensão, sendo intercambiável entre elas. A capacidade em Ah define a autonomia — quanto maior, mais tempo de trabalho entre recargas. Vale ter baterias reserva para uso contínuo.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Bateria",
+            "Especificação principal: 2.5Ah",
+            "Tensão: 42V"
+        ]
     },
     {
-        "titulo": "Carregador de Bateria 2.0A 42V Bivolt FCLI42021",
-        "modelo": "FCLI42021",
+        "titulo": "CARREGADOR DE BATERIA INTELIGENTE INGCO 42V 2.0A BIVOLT 110-240V LINHA P42M",
+        "modelo": "FCLI42021-9",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/CarregadorDeBateria2.0A42VBivoltFCLI42021-9.png",
-        "codigo": "FCLI42021",
-        "descricao": "Carregador de bateria 2.0A 42V Bivolt para ferramentas elétricas."
+        "img": "img/Produtos/CarregadorFCLI42021-9.png",
+        "codigo": "FCLI42021-9",
+        "descricao": "Reúne bateria e carregador da linha para quem está montando ou ampliando seu conjunto de ferramentas. A capacidade em Ah e a velocidade de recarga determinam autonomia e tempo de espera.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Carregador",
+            "Compatibilidade: baterias 42V da linha P42M INGCO",
+            "Corrente de carga: 2.0A",
+            "Alimentação: bivolt 110-240V"
+        ]
     },
     {
-        "titulo": "Alicate Para Anel Externo",
-        "modelo": "4711",
-        "marca": "Genérico",
+        "titulo": "CARREGADOR DE BATERIA INTELIGENTE INGCO 42V 4.0A BIVOLT 110-240V LINHA P42M",
+        "modelo": "FCLI42041-9",
+        "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/alicate-anel-externo-4711.png",
-        "codigo": "4711",
-        "descricao": "Alicate externo para remoção de anéis com firmeza e segurança."
+        "img": "img/Produtos/CarregadorFCLI42041-9.png",
+        "codigo": "FCLI42041-9",
+        "descricao": "O Carregador de Bateria Inteligente INGCO foi desenvolvido para recarregar as baterias de 42V da linha P42M INGCO. Com corrente de carga de 4.0A e entrada bivolt de 110-240V, oferece recarga prática em qualquer tomada do Brasil.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Carregador",
+            "Compatibilidade: baterias 42V da linha P42M INGCO",
+            "Corrente de carga: 4.0A",
+            "Alimentação: bivolt 110-240V"
+        ]
     }
 ]

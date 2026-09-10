@@ -254,7 +254,16 @@ function criarCardProduto(prod) {
     const modelo = prod.modelo || 'Modelo não informado';
     const marca = prod.marca || 'Marca não informada';
     const descricao = prod.descricao || 'Descrição não disponível.';
+    const tituloDescricao = prod.tituloDescricao || 'Descrição';
+    const tituloCaracteristicas = prod.tituloCaracteristicas || 'Características';
+    const caracteristicas = Array.isArray(prod.caracteristicas) ? prod.caracteristicas : [];
     const codigo = prod.codigo || '0000';
+    const listaCaracteristicas = caracteristicas.length > 0
+        ? `<section class="produto-caracteristicas">
+                <h4>${tituloCaracteristicas}:</h4>
+                <ul>${caracteristicas.map(item => `<li>${item}</li>`).join('')}</ul>
+           </section>`
+        : '';
 
     const mensagemZap = encodeURIComponent(`Olá, tenho interesse na ferramenta ${titulo} código: [${codigo}].`);
     const linkWhatsApp = `https://wa.me/553431990594?text=${mensagemZap}`;
@@ -271,7 +280,11 @@ function criarCardProduto(prod) {
             <a href="${linkWhatsApp}" target="_blank" class="btn-interesse btn-whatsapp">Pedir via WhatsApp</a>
         </div>
         <div class="produto-card-details">
-            <p class="produto-descricao">${descricao}</p>
+            <section class="produto-descricao">
+                <h4>${tituloDescricao}</h4>
+                <p>${descricao}</p>
+            </section>
+            ${listaCaracteristicas}
             <p class="produto-codigo">Código: ${codigo}</p>
         </div>`;
 

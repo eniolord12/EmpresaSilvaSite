@@ -1316,7 +1316,7 @@ footer {
 }
 
 .produto-card.active .produto-card-details {
-    max-height: 400px;
+    max-height: 700px;
     opacity: 1;
     margin-top: 18px;
 }
@@ -1325,6 +1325,28 @@ footer {
     color: #333;
     line-height: 1.55;
     margin: 0 0 14px;
+}
+
+.produto-descricao h4,
+.produto-caracteristicas h4 {
+    color: #333;
+    font-size: 1rem;
+    margin: 0 0 12px;
+}
+
+.produto-descricao p {
+    margin: 0;
+}
+
+.produto-caracteristicas {
+    color: #333;
+    line-height: 1.55;
+    margin-bottom: 14px;
+}
+
+.produto-caracteristicas ul {
+    margin: 0;
+    padding-left: 24px;
 }
 
 .produto-codigo {
