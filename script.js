@@ -251,6 +251,7 @@ function aplicarFiltrosProdutos() {
 
 function criarCardProduto(prod) {
     const titulo = prod.titulo || prod.nome || 'Produto';
+    const produto = prod.produto || 'Produto não informado';
     const modelo = prod.modelo || 'Modelo não informado';
     const marca = prod.marca || 'Marca não informada';
     const descricao = prod.descricao || 'Descrição não disponível.';
@@ -265,7 +266,7 @@ function criarCardProduto(prod) {
            </section>`
         : '';
 
-    const mensagemZap = encodeURIComponent(`Olá, tenho interesse na ferramenta ${titulo} código: [${codigo}].`);
+    const mensagemZap = encodeURIComponent(`Olá, tenho interesse neste produto: ${produto} ${codigo}`);
     const linkWhatsApp = `https://wa.me/553431990594?text=${mensagemZap}`;
 
     const card = document.createElement('div');
