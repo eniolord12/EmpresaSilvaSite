@@ -477,20 +477,40 @@
         ]
     },
     {
-        "titulo": "PARAF/FURADEIRA BL INGCO 55 Nm 1/2Pol A BATERIA 20V LINHA P20S",
-        "modelo": "CIDLI205582",
+        "titulo": "PARAF/FURADEIRA BL INGCO 66 Nm IMPACTO 1/2Pol A BAT 20V P20S",
+        "produto": "Parafusadeira",
+        "modelo": "CIDLI206681",
         "marca": "Ingco",
         "categoria": "Ferramentas",
-        "img": "img/Produtos/ParafusadeiraCIDLI205582.png",
-        "codigo": "CIDLI205582",
-        "descricao": "É a ferramenta mais versátil da bancada: fura madeira, metal e alvenaria leve e aperta ou remove parafusos com controle de torque e impacto. A versão à bateria dá liberdade de movimento em obras e instalações. Para trabalhos mais pesados, observe o torque em Nm; para autonomia ao longo do dia, a tensão e a capacidade (Ah) da bateria são o que importa.",
+        "img": "img/Produtos/ParafusadeiraCIDLI206681.png",
+        "codigo": "CIDLI206681",
+        "descricao": "É a ferramenta mais versátil da bancada: fura madeira, metal e alvenaria leve e aperta ou remove parafusos com controle de torque. A versão à bateria dá liberdade de movimento em obras e instalações. Para trabalhos mais pesados, observe o torque em Nm; para autonomia ao longo do dia, a tensão e a capacidade (Ah) da bateria são o que importa.",
         "tituloDescricao": "Para que serve e quando usar",
         "tituloCaracteristicas": "Características Principais",
         "caracteristicas": [
             "Tipo: Parafusadeira",
             "Motor: brushless",
             "Tensão: 20V",
-            "Torque: 55 Nm",
+            "Torque: 66 Nm",
+            "Disco/encaixe: 1/2\""
+        ]
+    },
+    {
+        "titulo": "Parafusadeira e Furadeira BL 66Nm 1/2\" Bateria 20V Linha P20S com 2 Baterias 2Ah INGCO",
+        "produto": "Parafusadeira",
+        "modelo": "CIDLI20668-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ParafusadeiraCIDLI20668-9.png",
+        "codigo": "CIDLI20668-9",
+        "descricao": "A Parafusadeira e Furadeira BL 66Nm 1/2\" Bateria 20V Linha P20S com 2 Baterias 2Ah INGCO é uma ferramenta sem fio equipada com motor brushless, torque máximo de 66Nm, função impacto, mandril de 1/2\" e velocidade sem carga de até 2000rpm. Alimentada por bateria de 20V e integrante da Linha P20S, é indicada para perfurações em madeira, metal e alvenaria, além de trabalhos de aperto e remoção de parafusos com controle de torque. 12 meses de garantia.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Parafusadeira",
+            "Motor: brushless",
+            "Tensão: 20V",
+            "Torque: 66 Nm",
             "Disco/encaixe: 1/2\""
         ]
     }
