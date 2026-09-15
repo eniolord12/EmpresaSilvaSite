@@ -449,5 +449,23 @@
             "Torque: 55 Nm",
             "Disco/encaixe: 1/2\""
         ]
+    },
+    {
+        "titulo": "PARAF/FURADEIRA BL INGCO 55 Nm 1/2Pol A BATERIA 20V LINHA P20S",
+        "modelo": "CIDLI205582",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ParafusadeiraCIDLI205582.png",
+        "codigo": "CIDLI205582",
+        "descricao": "É a ferramenta mais versátil da bancada: fura madeira, metal e alvenaria leve e aperta ou remove parafusos com controle de torque e impacto. A versão à bateria dá liberdade de movimento em obras e instalações. Para trabalhos mais pesados, observe o torque em Nm; para autonomia ao longo do dia, a tensão e a capacidade (Ah) da bateria são o que importa.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Parafusadeira",
+            "Motor: brushless",
+            "Tensão: 20V",
+            "Torque: 55 Nm",
+            "Disco/encaixe: 1/2\""
+        ]
     }
 ]
