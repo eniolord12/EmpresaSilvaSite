@@ -513,5 +513,43 @@
             "Torque: 66 Nm",
             "Disco/encaixe: 1/2\""
         ]
+    },
+    {
+        "titulo": "Parafusadeira e Furadeira BL 166Nm 1/2\" Bateria 20V Linha P20S com 2 Baterias 5Ah INGCO",
+        "produto": "Parafusadeira",
+        "modelo": "CIDLI201668-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ParafusadeiraCIDLI201668-9.png",
+        "codigo": "CIDLI201668-9",
+        "descricao": "A Parafusadeira e Furadeira BL 166Nm 1/2\" Bateria 20V Linha P20S com 2 Baterias 5Ah INGCO é uma ferramenta sem fio equipada com motor brushless, torque máximo de 166Nm, função impacto e mandril de 1/2\". Alimentada por bateria de 20V e integrante da Linha P20S, é indicada para perfurações em madeira, metal e alvenaria, além de trabalhos de aperto e remoção de parafusos que exigem maior torque. 12 meses de garantia.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "Tipo: Parafusadeira",
+            "Motor: brushless",
+            "Tensão: 20V",
+            "Torque: 166 Nm",
+            "Disco/encaixe: 1/2\""
+        ]
+    },
+    {
+        "titulo": "Combo BL Parafusadeira com Impacto 1/2\" 66Nm + Chave de Impacto 1/2\" 405Nm Bateria 20V Linha P20S com 2 Baterias 2Ah INGCO",
+        "produto": "Combo Parafusadeira e Chave de impacto",
+        "modelo": "CKLI20286-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ComboCKLI20286-9.png",
+        "codigo": "CKLI20286-9",
+        "descricao": "O Combo BL Parafusadeira com Impacto 1/2\" 66Nm + Chave de Impacto 1/2\" 405Nm Bateria 20V Linha P20S com 2 Baterias 2Ah INGCO reúne duas ferramentas sem fio com motor brushless e alimentação de 20V. A parafusadeira com impacto de 66Nm é indicada para perfurações e trabalhos de aperto e remoção de parafusos, enquanto a chave de impacto de 405Nm, com encaixe quadrado de 1/2\", é indicada para aperto e remoção de porcas e fixadores que exigem maior torque. Integrante da Linha P20S, o conjunto é indicado para serviços de montagem, instalação e manutenção. 12 meses de garantia.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "1 Parafusadeira com Impacto BL 1/2\" 66Nm INGCO",
+            "1 Chave de Impacto BL 1/2\" 405Nm INGCO",
+            "2 Baterias 20V Linha P20S 2Ah",
+            "1 Carregador Linha P20S 2A",
+            "Soquetes"
+        ]
     }
 ]
