@@ -551,5 +551,47 @@
             "1 Carregador Linha P20S 2A",
             "Soquetes"
         ]
+    },
+    {
+        "titulo": "Combo BL Parafusadeira com Impacto 1/2\" 66Nm + Parafusadeira de Impacto 1/4\" 285Nm Bateria 20V com 2 Baterias 2Ah INGCO",
+        "produto": "Combo Parafusadeira e Chave de impacto",
+        "modelo": "CKLI20277-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ComboCKLI20277-9.png",
+        "codigo": "CKLI20277-9",
+        "descricao": "O Combo BL Parafusadeira com Impacto 1/2\" 66Nm + Parafusadeira de Impacto 1/4\" 285Nm Bateria 20V com 2 Baterias 2Ah INGCO reúne duas ferramentas sem fio com motor brushless e alimentação de 20V. A parafusadeira com impacto de 66Nm é indicada para perfurações e trabalhos de aperto e remoção de parafusos, enquanto a parafusadeira de impacto de 285Nm, com encaixe sextavado de 1/4\", é voltada para fixações que exigem maior torque. O conjunto oferece versatilidade para serviços de montagem, instalação e manutenção. 12 meses de garantia.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "1 Parafusadeira com Impacto BL 1/2\" 66Nm INGCO",
+            "1 Parafusadeira de Impacto BL 1/4\" 285Nm INGCO",
+            "2 Baterias 20V Linha P20S 2Ah",
+            "1 Carregador Linha P20S 2A",
+            "47 Acessórios",
+            "2 Bits de chave de fenda",
+            "3 Chaves para porca"
+        ]
+    },
+    {
+        "titulo": "Combo Parafusadeira 66Nm e Esmerilhadeira 115mm Bateria 20V INGCO",
+        "produto": "Combo Parafusadeira e Esmerilhadeira",
+        "modelo": "CKLI20256-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ComboCKLI20256-9.png",
+        "codigo": "CKLI20256-9",
+        "descricao": "O Combo Parafusadeira/Furadeira 66Nm e Esmerilhadeira 115mm Brushless 20V P20S com 2 Baterias 4Ah INGCO reúne duas ferramentas para trabalhos de perfuração, parafusamento, corte e desbaste. A parafusadeira/furadeira possui função de impacto, torque máximo de 66Nm, mandril metálico de 13mm (1/2\"), duas velocidades e taxa máxima de 30.000ipm. A esmerilhadeira possui potência máxima de 1.200W, disco de 115mm, três velocidades de até 9.000rpm, rosca M14 e empunhadura antivibração.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "1 Parafusadeira/Furadeira com Impacto Brushless INGCO 20V 66Nm",
+            "1 Esmerilhadeira Angular Brushless INGCO 20V 115mm 1.200W",
+            "10 Discos de corte para metal de 115mm",
+            "47 Acessórios entre bits e parafusos",
+            "3 Brocas para alvenaria",
+            "2 Baterias 20V Linha P20S 4Ah",
+            "1 Carregador de baterias 20V bivolt 4A"
+        ]
     }
 ]
