@@ -593,5 +593,27 @@
             "2 Baterias 20V Linha P20S 4Ah",
             "1 Carregador de baterias 20V bivolt 4A"
         ]
+    },
+    {
+        "titulo": "Combo Parafusadeira 66Nm e Mini Esmerilhadeira 3\" Bateria 20V INGCO",
+        "produto": "Combo Parafusadeira e Mini Esmerilhadeira",
+        "modelo": "CKLI20255-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/ComboCKLI20255-9.png",
+        "codigo": "CKLI20255-9",
+        "descricao": "O Combo Parafusadeira/Furadeira 66Nm e Mini Esmerilhadeira 3\" Bateria 20V P20S com 2 Baterias 2Ah INGCO reúne duas ferramentas com motores sem escova para trabalhos de perfuração, parafusamento e corte. A parafusadeira/furadeira possui função de impacto, torque máximo de 66Nm, mandril metálico de 13mm (1/2\"), duas velocidades mecânicas, 22+1+1 configurações de torque e velocidade máxima de 2.000rpm. A mini esmerilhadeira possui disco de 76mm (3\"), velocidade de 20.000rpm, rosca do eixo M6 e disco posicionado no lado esquerdo.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "1 Parafusadeira/Furadeira com Impacto Brushless INGCO 20V 66Nm",
+            "1 Mini Esmerilhadeira Brushless INGCO 20V 3\"",
+            "3 Discos de corte abrasivos para metal",
+            "1 Chave de aperto",
+            "47 Acessórios entre bits e parafusos",
+            "3 Brocas para alvenaria",
+            "2 Baterias 20V Linha P20S 2Ah",
+            "1 Carregador de bateria 20V bivolt 2A"
+        ]
     }
 ]
