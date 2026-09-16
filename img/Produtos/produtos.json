@@ -615,5 +615,47 @@
             "2 Baterias 20V Linha P20S 2Ah",
             "1 Carregador de bateria 20V bivolt 2A"
         ]
+    },
+    {
+        "titulo": "Combo 166 Peças com Parafusadeira 20V Linha P20S INGCO",
+        "produto": "Combo 166 Peças com Parafusadeira",
+        "modelo": "CKLI20254-9",
+        "marca": "Ingco",
+        "categoria": "Ferramentas",
+        "img": "img/Produtos/Combo166PecasHKTHP41662-9.png",
+        "codigo": "CKLI20254-9",
+        "descricao": "O Kit 166 Ferramentas com Parafusadeira/Furadeira Impacto Brushless 66Nm Bateria 20V Linha P20S com 1 Bateria 2Ah INGCO reúne ferramentas e acessórios para trabalhos de perfuração, parafusamento, montagem, manutenção e instalações. A parafusadeira/furadeira possui motor brushless, torque máximo de 66Nm, taxa de impacto de até 22.500ipm e velocidades de 0–500 e 0–2.000rpm. Conta com mandril metálico de 13mm, 22+1+1 configurações de torque, duas velocidades mecânicas, bloqueio do eixo e luz LED integrada.",
+        "tituloDescricao": "Para que serve e quando usar",
+        "tituloCaracteristicas": "Características Principais",
+        "caracteristicas": [
+            "1 Parafusadeira/Furadeira com Impacto Brushless INGCO 20V 66Nm – CIDLI206681",
+            "1 Bateria de íons de lítio 20V Linha P20S 2Ah",
+            "1 Carregador de bateria 20V bivolt 2A",
+            "1 Martelo unha de 220g (8oz)",
+            "1 Chave de fenda SL5,5x100mm",
+            "1 Chave Phillips PH1x100mm",
+            "1 Alicate bomba d’água de 10\"",
+            "1 Alicate universal de 7\"",
+            "1 Alicate de bico de 6\"",
+            "1 Chave ajustável de 8\"",
+            "1 Caneta teste",
+            "1 Trena de 3m",
+            "1 Estilete",
+            "1 Adaptador magnético para bits de 1/4\"",
+            "1 Chave canhão de 4mm para bits",
+            "10 Bits: SL1,5, SL2, SL3, PH000, PH00, PH0, T6, T8, H1,5 e H2,5",
+            "1 Tesoura de eletricista de 5,5\"",
+            "1 Mini arco de serra",
+            "8 Chaves Allen: 1,5mm, 2mm, 2,5mm, 3mm, 4mm, 5mm, 5,5mm e 6mm",
+            "5 Brocas para alvenaria: 4mm, 5mm, 6mm, 8mm e 10mm",
+            "5 Brocas helicoidais: 2mm, 3mm, 4mm, 5mm e 6mm",
+            "4 Brocas para madeira: 4mm, 5mm, 6mm e 8mm",
+            "20 Pontas de 1\": SL3, SL4, SL5, SL6, PH0, PH1, PH2, PH3, PZ0, PZ1, PZ2, PZ3, T10, T15, T20, T30, H3, H4, H5 e H6",
+            "10 Pontas de 2\": SL4, SL5, SL6, PH1, PH2, PH3, T10, T15, T20 e T30",
+            "7 Soquetes em aço Cr-V: 5mm, 6mm, 7mm, 8mm, 9mm, 10mm e 11mm",
+            "1 Suporte magnético para bits",
+            "40 Parafusos: 22 ST3,5, 10 ST4 e 8 ST5",
+            "40 Buchas plásticas: 22 de 5mm, 10 de 6mm e 8mm"
+        ]
     }
 ]
